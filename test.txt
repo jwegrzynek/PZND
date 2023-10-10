@@ -5,3 +5,12 @@ test
 test
 test
 test
+
+git branch feature/new_file
+git checkout feature/new_file
+git checkout main
+git merge feature/new_file
+git tag important_version
+git push origin --tags
+ git branch -d feature/new_file
+ git push origin -d feature/new_file
