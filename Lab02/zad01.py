@@ -1,1 +1,3 @@
 train = "elo"
+
+print("eeeeeeo")
