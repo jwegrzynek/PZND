@@ -88,7 +88,8 @@ class Population:
     Model of population
 
     Attributes:
-        specimen(set): contains objects representing creatures
+        victims(set): contains objects representing victims
+        predators(set): contains object representing victims
         history(list): list containing previous counts of the population
 
     Methods:
