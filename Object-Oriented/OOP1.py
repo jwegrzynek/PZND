@@ -5,6 +5,8 @@ SIGMA = 0.02
 
 
 class Probability:
+    """Descriptor for probability (forces probability to be between 0 and 1"""
+
     def __set_name__(self, owner, name):  # name = 'p_death' lub 'p_reproduce'
         self.private_name = '_' + name
 
@@ -16,6 +18,19 @@ class Probability:
 
 
 class Creature:
+    """
+    Model of living creature
+
+    Attributes:
+        alive(bool): indicator if the creature is alive
+        p_death(float): probability of death
+        p_reproduce(float): probability of reproduction
+
+    Methods:
+        natural_selection: kills the creature with probability p_death
+        reproduce: returns new creature with attributes similar to its parent
+    """
+
     alive = True
     p_death = Probability()
     p_reproduce = Probability()
@@ -51,6 +66,21 @@ class Creature:
 
 
 class Population:
+
+    """
+    Model of population
+
+    Attributes:
+        specimen(set): contains objects representing creatures
+        history(list): list containing previous counts of the population
+
+    Methods:
+        count_alive: returns number of alive creatures that are alive
+        natural_selection: applies natural_selection to each creature in the population
+        reproduce: creates new creatures by allowing creatures that are alive to reproduce
+        simulate: runs simulation for the given number of generations
+    """
+
     def __init__(self, size=100):
         self.specimen = {Creature() for _ in range(size)}
         self.history = []
