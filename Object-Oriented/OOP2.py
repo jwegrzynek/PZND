@@ -6,8 +6,8 @@ SIGMA = 0.02
 P_DEATH_IF_HUNGRY = 0.5
 P_DEATH_IF_FED = 0.05
 
-State = namedtuple('State', ['victims', 'predators'])
-State(victims=100, predators=200)
+State = namedtuple('State', ['preys', 'predators'])
+State(preys=100, predators=200)
 
 
 class Probability:
@@ -54,7 +54,7 @@ class Creature:
             return type(self)()
 
 
-class Victim(Creature):
+class Prey(Creature):
     p_escape = Probability()
 
     def __init__(self, p_death=0.2, p_reproduce=0.2, p_escape=0.8):
@@ -88,7 +88,7 @@ class Population:
     Model of population
 
     Attributes:
-        victims(set): contains objects representing victims
+        preys(set): contains objects representing victims
         predators(set): contains object representing victims
         history(list): list containing previous counts of the population
 
@@ -99,24 +99,25 @@ class Population:
         simulate: runs simulation for the given number of generations
     """
 
-    def __init__(self, victims=100, predators=100):
-        self.victims = {Victim() for _ in range(victims)}
+    def __init__(self, preys=100, predators=100):
+        self.preys = {Prey() for _ in range(preys)}
         self.predators = {Predator() for _ in range(predators)}
         self.history = []
 
     def count_alive(self):
-        victims = len({creature for creature in self.victims if creature.alive})
+        preys = len({creature for creature in self.preys if creature.alive})
         predators = len({creature for creature in self.predators if creature.alive})
 
-        return State(victims=victims, predators=predators)
+        return State(preys=preys, predators=predators)
 
     def perform_natural_selection(self):
-        for creature in self.victims | self.predators:
+        for creature in self.preys | self.predators:
             creature.natural_selection()
 
     def simulate(self, generations):
         for _ in range(generations):
             self.history.append(self.count_alive())
+            self.hunt()
             self.perform_natural_selection()
             self.reproduce()
 
@@ -128,11 +129,23 @@ class Population:
         return new_creatures
 
     def reproduce(self):
-        self.victims |= Population._reproduce(self.victims)
+        self.preys |= Population._reproduce(self.preys)
         self.predators |= Population._reproduce(self.predators)
 
+    def hunt(self):
+        preys_alive = [creature for creature in self.preys if creature.alive]
+        predators_alive = [creature for creature in self.predators if creature.alive]
+
+        sample_size = min(len(preys_alive), len(predators_alive))
+        predators_sample = random.sample(predators_alive, sample_size)
+
+        for prey, predator in zip(preys_alive[:sample_size], predators_sample):
+            predator.hunt(prey)
+            print()
+
     def plot(self):
-        plt.plot(self.history)
+        plt.plot([count.preys for count in self.history])
+        plt.plot([count.predators for count in self.history])
         plt.title("Plot of population")
         plt.show()
 
@@ -143,4 +156,10 @@ class Population:
 
 
 pred1 = Predator()
-victim1 = Victim()
+prey1 = Prey()
+
+p1 = Population(5, 5)
+p1.perform_natural_selection()
+print(p1.count_alive())
+
+p1.hunt()
