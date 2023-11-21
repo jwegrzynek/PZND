@@ -25,7 +25,7 @@ class Probability:
 
 class Creature:
     """
-    Model of living creature
+    Model of a living creature
 
     Attributes:
         alive(bool): indicator if the creature is alive
@@ -55,6 +55,16 @@ class Creature:
 
 
 class Prey(Creature):
+    """
+    Model of a prey
+
+    Attributes:
+        p_escape(float): probability of escaping from the predator
+
+    Methods:
+        escape: returns True if prey was able to escape. otherwise returns False
+    """
+
     p_escape = Probability()
 
     def __init__(self, p_death=0.2, p_reproduce=0.2, p_escape=0.8):
@@ -69,6 +79,12 @@ class Prey(Creature):
 
 
 class Predator(Creature):
+    """
+    Model of a predator
+
+    Methods:
+        hunt: hunts for a prey given as an argument
+    """
 
     def __init__(self, p_death=P_DEATH_IF_HUNGRY, p_reproduce=0.2):
         super().__init__(p_death, p_reproduce)
@@ -147,11 +163,6 @@ class Population:
         plt.plot([count.preys for count in self.history])
         plt.plot([count.predators for count in self.history])
         plt.title("Plot of population")
-        plt.show()
-
-    def plot_attribute(self, attribute='p_death'):
-        values = [getattr(creature, attribute) for creature in self.specimen]
-        plt.hist(values)
         plt.show()
 
 
