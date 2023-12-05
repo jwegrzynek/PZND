@@ -71,5 +71,10 @@ class SingletonMeta(type):
 
 
 class Logger(metaclass=SingletonMeta):
-    def stub(self):
-        print('elo')
+    _file_name = 'logs.log'
+
+    def __init__(self):
+        self._file = open(self._file_name, 'w')
+
+    def write_log(self, message):
+        self._file.writelines(message + '\n')
