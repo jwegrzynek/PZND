@@ -1,0 +1,4651 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1986-07-21" modified="2023-11-08" version="262" xmlns="http://uniprot.org/uniprot">
+  <accession>P01024</accession>
+  <accession>A7E236</accession>
+  <name>CO3_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName>Complement C3</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>C3 and PZP-like alpha-2-macroglobulin domain-containing protein 1</fullName>
+    </alternativeName>
+    <component>
+      <recommendedName>
+        <fullName>Complement C3 beta chain</fullName>
+      </recommendedName>
+    </component>
+    <component>
+      <recommendedName>
+        <fullName>C3-beta-c</fullName>
+        <shortName>C3bc</shortName>
+      </recommendedName>
+    </component>
+    <component>
+      <recommendedName>
+        <fullName>Complement C3 alpha chain</fullName>
+      </recommendedName>
+    </component>
+    <component>
+      <recommendedName>
+        <fullName>C3a anaphylatoxin</fullName>
+      </recommendedName>
+    </component>
+    <component>
+      <recommendedName>
+        <fullName>Acylation stimulating protein</fullName>
+        <shortName>ASP</shortName>
+      </recommendedName>
+      <alternativeName>
+        <fullName>C3adesArg</fullName>
+      </alternativeName>
+    </component>
+    <component>
+      <recommendedName>
+        <fullName>Complement C3b alpha' chain</fullName>
+      </recommendedName>
+    </component>
+    <component>
+      <recommendedName>
+        <fullName>Complement C3c alpha' chain fragment 1</fullName>
+      </recommendedName>
+    </component>
+    <component>
+      <recommendedName>
+        <fullName>Complement C3dg fragment</fullName>
+      </recommendedName>
+    </component>
+    <component>
+      <recommendedName>
+        <fullName>Complement C3g fragment</fullName>
+      </recommendedName>
+    </component>
+    <component>
+      <recommendedName>
+        <fullName>Complement C3d fragment</fullName>
+      </recommendedName>
+    </component>
+    <component>
+      <recommendedName>
+        <fullName>Complement C3f fragment</fullName>
+      </recommendedName>
+    </component>
+    <component>
+      <recommendedName>
+        <fullName>Complement C3c alpha' chain fragment 2</fullName>
+      </recommendedName>
+    </component>
+  </protein>
+  <gene>
+    <name type="primary">C3</name>
+    <name type="synonym">CPAMD1</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1985" name="Proc. Natl. Acad. Sci. U.S.A." volume="82" first="708" last="712">
+      <title>Human complement component C3: cDNA coding sequence and derived primary structure.</title>
+      <authorList>
+        <person name="de Bruijn M.H.L."/>
+        <person name="Fey G.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="2579379"/>
+      <dbReference type="DOI" id="10.1073/pnas.82.3.708"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    <scope>VARIANT LEU-314</scope>
+  </reference>
+  <reference key="2">
+    <citation type="submission" date="2003-12" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <consortium name="SeattleSNPs variation discovery resource"/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>VARIANTS GLY-102; LEU-314; LYS-863; ASP-1224 AND THR-1367</scope>
+  </reference>
+  <reference key="3">
+    <citation type="submission" date="2005-09" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Mural R.J."/>
+        <person name="Istrail S."/>
+        <person name="Sutton G.G."/>
+        <person name="Florea L."/>
+        <person name="Halpern A.L."/>
+        <person name="Mobarry C.M."/>
+        <person name="Lippert R."/>
+        <person name="Walenz B."/>
+        <person name="Shatkay H."/>
+        <person name="Dew I."/>
+        <person name="Miller J.R."/>
+        <person name="Flanigan M.J."/>
+        <person name="Edwards N.J."/>
+        <person name="Bolanos R."/>
+        <person name="Fasulo D."/>
+        <person name="Halldorsson B.V."/>
+        <person name="Hannenhalli S."/>
+        <person name="Turner R."/>
+        <person name="Yooseph S."/>
+        <person name="Lu F."/>
+        <person name="Nusskern D.R."/>
+        <person name="Shue B.C."/>
+        <person name="Zheng X.H."/>
+        <person name="Zhong F."/>
+        <person name="Delcher A.L."/>
+        <person name="Huson D.H."/>
+        <person name="Kravitz S.A."/>
+        <person name="Mouchard L."/>
+        <person name="Reinert K."/>
+        <person name="Remington K.A."/>
+        <person name="Clark A.G."/>
+        <person name="Waterman M.S."/>
+        <person name="Eichler E.E."/>
+        <person name="Adams M.D."/>
+        <person name="Hunkapiller M.W."/>
+        <person name="Myers E.W."/>
+        <person name="Venter J.C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="1993" name="J. Clin. Invest." volume="92" first="1543" last="1547">
+      <title>The adipsin-acylation stimulating protein system and regulation of intracellular triglyceride synthesis.</title>
+      <authorList>
+        <person name="Baldo A."/>
+        <person name="Sniderman A.D."/>
+        <person name="St-Luce S."/>
+        <person name="Avramoglu R.K."/>
+        <person name="Maslowska M."/>
+        <person name="Hoang B."/>
+        <person name="Monge J.C."/>
+        <person name="Bell A."/>
+        <person name="Mulay S."/>
+        <person name="Cianflone K."/>
+      </authorList>
+      <dbReference type="PubMed" id="8376604"/>
+      <dbReference type="DOI" id="10.1172/jci116733"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF N-TERMINUS</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="1975" name="J. Biol. Chem." volume="250" first="8293" last="8301">
+      <title>Human anaphylatoxin (C3a) from the third component of complement. Primary structure.</title>
+      <authorList>
+        <person name="Hugli T.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="1238393"/>
+      <dbReference type="DOI" id="10.1016/s0021-9258(19)40758-8"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 672-748</scope>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2014" name="Proc. Natl. Acad. Sci. U.S.A." volume="111" first="427" last="432">
+      <title>Neisseria meningitidis NalP cleaves human complement C3, facilitating degradation of C3b and survival in human serum.</title>
+      <authorList>
+        <person name="Del Tordello E."/>
+        <person name="Vacca I."/>
+        <person name="Ram S."/>
+        <person name="Rappuoli R."/>
+        <person name="Serruto D."/>
+      </authorList>
+      <dbReference type="PubMed" id="24367091"/>
+      <dbReference type="DOI" id="10.1073/pnas.1321556111"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 745-754</scope>
+    <scope>CLEAVAGE BY N.MENINGITIDIS NALP (MICROBIAL INFECTION)</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="1995" name="J. Biol. Chem." volume="270" first="13645" last="13651">
+      <title>Identification of angiotensinogen and complement C3dg as novel proteins binding the proform of eosinophil major basic protein in human pregnancy serum and plasma.</title>
+      <authorList>
+        <person name="Oxvig C."/>
+        <person name="Haaning J."/>
+        <person name="Kristensen L."/>
+        <person name="Wagner J.M."/>
+        <person name="Rubin I."/>
+        <person name="Stigbrand T."/>
+        <person name="Gleich G.J."/>
+        <person name="Sottrup-Jensen L."/>
+      </authorList>
+      <dbReference type="PubMed" id="7539791"/>
+      <dbReference type="DOI" id="10.1074/jbc.270.23.13645"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 955-966</scope>
+    <scope>SUBUNIT</scope>
+    <source>
+      <tissue>Serum</tissue>
+    </source>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="1982" name="Proc. Natl. Acad. Sci. U.S.A." volume="79" first="1054" last="1058">
+      <title>Third component of human complement: localization of the internal thiolester bond.</title>
+      <authorList>
+        <person name="Thomas M.L."/>
+        <person name="Janatova J."/>
+        <person name="Gray W.R."/>
+        <person name="Tack B.F."/>
+      </authorList>
+      <dbReference type="PubMed" id="6175959"/>
+      <dbReference type="DOI" id="10.1073/pnas.79.4.1054"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 988-1036</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="1988" name="J. Exp. Med." volume="168" first="1699" last="1717">
+      <title>Identification of distinct C3b and C4b recognition sites in the human C3b/C4b receptor (CR1, CD35) by deletion mutagenesis.</title>
+      <authorList>
+        <person name="Klickstein L.B."/>
+        <person name="Bartow T.J."/>
+        <person name="Miletic V."/>
+        <person name="Rabson L.D."/>
+        <person name="Smith J.A."/>
+        <person name="Fearon D.T."/>
+      </authorList>
+      <dbReference type="PubMed" id="2972794"/>
+      <dbReference type="DOI" id="10.1084/jem.168.5.1699"/>
+    </citation>
+    <scope>INTERACTION WITH CR1</scope>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="1988" name="J. Immunol." volume="140" first="1577" last="1580">
+      <title>A 34-amino acid peptide of the third component of complement mediates properdin binding.</title>
+      <authorList>
+        <person name="Daoudaki M.E."/>
+        <person name="Becherer J.D."/>
+        <person name="Lambris J.D."/>
+      </authorList>
+      <dbReference type="PubMed" id="3279119"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 1409-1563</scope>
+  </reference>
+  <reference key="12">
+    <citation type="journal article" date="1987" name="Microb. Pathog." volume="3" first="423" last="435">
+      <title>Complement component C3b binds directly to purified glycoprotein C of herpes simplex virus types 1 and 2.</title>
+      <authorList>
+        <person name="Eisenberg R.J."/>
+        <person name="Ponce de Leon M."/>
+        <person name="Friedman H.M."/>
+        <person name="Fries L.F."/>
+        <person name="Frank M.M."/>
+        <person name="Hastings J.C."/>
+        <person name="Cohen G.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="2849025"/>
+      <dbReference type="DOI" id="10.1016/0882-4010(87)90012-x"/>
+    </citation>
+    <scope>INTERACTION WITH HERPES SIMPLEX VIRUS HHV-1 AND HHV-2 GYCOPROTEIN C (MICROBIAL INFECTION)</scope>
+  </reference>
+  <reference key="13">
+    <citation type="journal article" date="1989" name="J. Biol. Chem." volume="264" first="426" last="430">
+      <title>Purification and characterization of acylation stimulating protein.</title>
+      <authorList>
+        <person name="Cianflone K.M."/>
+        <person name="Sniderman A.D."/>
+        <person name="Walsh M.J."/>
+        <person name="Vu H.T."/>
+        <person name="Gagnon J."/>
+        <person name="Rodriguez M.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="2909530"/>
+      <dbReference type="DOI" id="10.1016/s0021-9258(17)31275-9"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="14">
+    <citation type="journal article" date="1992" name="J. Biol. Chem." volume="267" first="10062" last="10069">
+      <title>Structural requirements for thioester bond formation in human complement component C3. Reassessment of the role of thioester bond integrity on the conformation of C3.</title>
+      <authorList>
+        <person name="Isaac L."/>
+        <person name="Isenman D.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="1577777"/>
+      <dbReference type="DOI" id="10.1016/s0021-9258(19)50200-9"/>
+    </citation>
+    <scope>MUTAGENESIS OF THE THIOESTER BOND REGION</scope>
+  </reference>
+  <reference key="15">
+    <citation type="journal article" date="1993" name="FEBS Lett." volume="315" first="85" last="90">
+      <title>Disulfide bridges in human complement component C3b.</title>
+      <authorList>
+        <person name="Dolmer K."/>
+        <person name="Sottrup-Jensen L."/>
+      </authorList>
+      <dbReference type="PubMed" id="8416818"/>
+      <dbReference type="DOI" id="10.1016/0014-5793(93)81139-q"/>
+    </citation>
+    <scope>DISULFIDE BONDS</scope>
+  </reference>
+  <reference key="16">
+    <citation type="journal article" date="1994" name="J. Biol. Chem." volume="269" first="13273" last="13278">
+      <title>Analysis of the functional domains of complement receptor type 1 (C3b/C4b receptor; CD35) by substitution mutagenesis.</title>
+      <authorList>
+        <person name="Krych M."/>
+        <person name="Clemenza L."/>
+        <person name="Howdeshell D."/>
+        <person name="Hauhart R."/>
+        <person name="Hourcade D."/>
+        <person name="Atkinson J.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="8175757"/>
+      <dbReference type="DOI" id="10.1016/s0021-9258(17)36829-1"/>
+    </citation>
+    <scope>INTERACTION WITH CR1</scope>
+  </reference>
+  <reference key="17">
+    <citation type="journal article" date="1997" name="Biochim. Biophys. Acta" volume="1344" first="221" last="229">
+      <title>Acylation-stimulating protein (ASP) regulates glucose transport in the rat L6 muscle cell line.</title>
+      <authorList>
+        <person name="Tao Y."/>
+        <person name="Cianflone K."/>
+        <person name="Sniderman A.D."/>
+        <person name="Colby-Germinario S.P."/>
+        <person name="Germinario R.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="9059512"/>
+      <dbReference type="DOI" id="10.1016/s0005-2760(96)00144-0"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="18">
+    <citation type="journal article" date="1998" name="J. Lipid Res." volume="39" first="884" last="891">
+      <title>Coordinated release of acylation stimulating protein (ASP) and triacylglycerol clearance by human adipose tissue in vivo in the postprandial period.</title>
+      <authorList>
+        <person name="Saleh J."/>
+        <person name="Summers L.K."/>
+        <person name="Cianflone K."/>
+        <person name="Fielding B.A."/>
+        <person name="Sniderman A.D."/>
+        <person name="Frayn K.N."/>
+      </authorList>
+      <dbReference type="PubMed" id="9555951"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="19">
+    <citation type="journal article" date="1999" name="Biochem. J." volume="342" first="41" last="48">
+      <title>Acylation-stimulating protein (ASP): structure-function determinants of cell surface binding and triacylglycerol synthetic activity.</title>
+      <authorList>
+        <person name="Murray I."/>
+        <person name="Kohl J."/>
+        <person name="Cianflone K."/>
+      </authorList>
+      <dbReference type="PubMed" id="10432298"/>
+      <dbReference type="DOI" id="10.1042/bj3420041"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="20">
+    <citation type="journal article" date="2002" name="J. Biol. Chem." volume="277" first="7165" last="7169">
+      <title>The orphan receptor C5L2 has high affinity binding sites for complement fragments C5a and C5a des Arg(74).</title>
+      <authorList>
+        <person name="Cain S.A."/>
+        <person name="Monk P.N."/>
+      </authorList>
+      <dbReference type="PubMed" id="11773063"/>
+      <dbReference type="DOI" id="10.1074/jbc.c100714200"/>
+    </citation>
+    <scope>INTERACTION WITH C5AR2</scope>
+  </reference>
+  <reference key="21">
+    <citation type="journal article" date="2003" name="J. Biol. Chem." volume="278" first="11123" last="11129">
+      <title>The chemoattractant receptor-like protein C5L2 binds the C3a des-Arg77/acylation-stimulating protein.</title>
+      <authorList>
+        <person name="Kalant D."/>
+        <person name="Cain S.A."/>
+        <person name="Maslowska M."/>
+        <person name="Sniderman A.D."/>
+        <person name="Cianflone K."/>
+        <person name="Monk P.N."/>
+      </authorList>
+      <dbReference type="PubMed" id="12540846"/>
+      <dbReference type="DOI" id="10.1074/jbc.m206169200"/>
+    </citation>
+    <scope>INTERACTION WITH C5AR2</scope>
+  </reference>
+  <reference key="22">
+    <citation type="journal article" date="2003" name="Nat. Biotechnol." volume="21" first="660" last="666">
+      <title>Identification and quantification of N-linked glycoproteins using hydrazide chemistry, stable isotope labeling and mass spectrometry.</title>
+      <authorList>
+        <person name="Zhang H."/>
+        <person name="Li X.-J."/>
+        <person name="Martin D.B."/>
+        <person name="Aebersold R."/>
+      </authorList>
+      <dbReference type="PubMed" id="12754519"/>
+      <dbReference type="DOI" id="10.1038/nbt827"/>
+    </citation>
+    <scope>GLYCOSYLATION AT ASN-85</scope>
+  </reference>
+  <reference key="23">
+    <citation type="journal article" date="2004" name="Proteomics" volume="4" first="454" last="465">
+      <title>Screening for N-glycosylated proteins by liquid chromatography mass spectrometry.</title>
+      <authorList>
+        <person name="Bunkenborg J."/>
+        <person name="Pilch B.J."/>
+        <person name="Podtelejnikov A.V."/>
+        <person name="Wisniewski J.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="14760718"/>
+      <dbReference type="DOI" id="10.1002/pmic.200300556"/>
+    </citation>
+    <scope>GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-939</scope>
+    <source>
+      <tissue>Plasma</tissue>
+    </source>
+  </reference>
+  <reference key="24">
+    <citation type="journal article" date="2005" name="Int. J. Obes. Relat. Metab. Disord." volume="29" first="632" last="638">
+      <title>Acylation-stimulating protein: effect of acute exercise and endurance training.</title>
+      <authorList>
+        <person name="Schrauwen P."/>
+        <person name="Hesselink M.K."/>
+        <person name="Jain M."/>
+        <person name="Cianflone K."/>
+      </authorList>
+      <dbReference type="PubMed" id="15809665"/>
+      <dbReference type="DOI" id="10.1038/sj.ijo.0802949"/>
+    </citation>
+    <scope>EFFECTS OF EXERCISE</scope>
+  </reference>
+  <reference key="25">
+    <citation type="journal article" date="2005" name="J. Biol. Chem." volume="280" first="23936" last="23944">
+      <title>C5L2 is a functional receptor for acylation-stimulating protein.</title>
+      <authorList>
+        <person name="Kalant D."/>
+        <person name="MacLaren R."/>
+        <person name="Cui W."/>
+        <person name="Samanta R."/>
+        <person name="Monk P.N."/>
+        <person name="Laporte S.A."/>
+        <person name="Cianflone K."/>
+      </authorList>
+      <dbReference type="PubMed" id="15833747"/>
+      <dbReference type="DOI" id="10.1074/jbc.m406921200"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+  </reference>
+  <reference key="26">
+    <citation type="journal article" date="2005" name="J. Proteome Res." volume="4" first="2070" last="2080">
+      <title>Human plasma N-glycoproteome analysis by immunoaffinity subtraction, hydrazide chemistry, and mass spectrometry.</title>
+      <authorList>
+        <person name="Liu T."/>
+        <person name="Qian W.-J."/>
+        <person name="Gritsenko M.A."/>
+        <person name="Camp D.G. II"/>
+        <person name="Monroe M.E."/>
+        <person name="Moore R.J."/>
+        <person name="Smith R.D."/>
+      </authorList>
+      <dbReference type="PubMed" id="16335952"/>
+      <dbReference type="DOI" id="10.1021/pr0502065"/>
+    </citation>
+    <scope>GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-85; ASN-939 AND ASN-1617</scope>
+    <source>
+      <tissue>Plasma</tissue>
+    </source>
+  </reference>
+  <reference key="27">
+    <citation type="journal article" date="2006" name="Int. J. Obes. Relat. Metab. Disord." volume="30" first="439" last="446">
+      <title>Relationships among acylation stimulating protein, adiponectin and complement C3 in lean vs obese type 2 diabetes.</title>
+      <authorList>
+        <person name="Yang Y."/>
+        <person name="Lu H.L."/>
+        <person name="Zhang J."/>
+        <person name="Yu H.Y."/>
+        <person name="Wang H.W."/>
+        <person name="Zhang M.X."/>
+        <person name="Cianflone K."/>
+      </authorList>
+      <dbReference type="PubMed" id="16302015"/>
+      <dbReference type="DOI" id="10.1038/sj.ijo.0803173"/>
+    </citation>
+    <scope>ASSOCIATION WITH TYPE 2 DIABETES</scope>
+  </reference>
+  <reference key="28">
+    <citation type="journal article" date="2006" name="J. Lipid Res." volume="47" first="643" last="652">
+      <title>Targeting the signaling pathway of acylation stimulating protein.</title>
+      <authorList>
+        <person name="Maslowska M."/>
+        <person name="Legakis H."/>
+        <person name="Assadi F."/>
+        <person name="Cianflone K."/>
+      </authorList>
+      <dbReference type="PubMed" id="16333141"/>
+      <dbReference type="DOI" id="10.1194/jlr.m500500-jlr200"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="29">
+    <citation type="journal article" date="2006" name="Mol. Cell. Proteomics" volume="5" first="226" last="233">
+      <title>Elucidation of N-glycosylation sites on human platelet proteins: a glycoproteomic approach.</title>
+      <authorList>
+        <person name="Lewandrowski U."/>
+        <person name="Moebius J."/>
+        <person name="Walter U."/>
+        <person name="Sickmann A."/>
+      </authorList>
+      <dbReference type="PubMed" id="16263699"/>
+      <dbReference type="DOI" id="10.1074/mcp.m500324-mcp200"/>
+    </citation>
+    <scope>GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-85</scope>
+    <source>
+      <tissue>Platelet</tissue>
+    </source>
+  </reference>
+  <reference key="30">
+    <citation type="journal article" date="2008" name="Eur. J. Endocrinol." volume="159" first="781" last="790">
+      <title>Acylation stimulating protein but not complement C3 associates with metabolic syndrome components in Chinese children and adolescents.</title>
+      <authorList>
+        <person name="Wamba P.C."/>
+        <person name="Mi J."/>
+        <person name="Zhao X.Y."/>
+        <person name="Zhang M.X."/>
+        <person name="Wen Y."/>
+        <person name="Cheng H."/>
+        <person name="Hou D.Q."/>
+        <person name="Cianflone K."/>
+      </authorList>
+      <dbReference type="PubMed" id="18805911"/>
+      <dbReference type="DOI" id="10.1530/eje-08-0467"/>
+    </citation>
+    <scope>ASSOCIATION WITH OBESITY</scope>
+  </reference>
+  <reference key="31">
+    <citation type="journal article" date="2008" name="J. Biol. Chem." volume="283" first="6253" last="6260">
+      <title>Group A streptococcal cysteine protease degrades C3 (C3b) and contributes to evasion of innate immunity.</title>
+      <authorList>
+        <person name="Terao Y."/>
+        <person name="Mori Y."/>
+        <person name="Yamaguchi M."/>
+        <person name="Shimizu Y."/>
+        <person name="Ooe K."/>
+        <person name="Hamada S."/>
+        <person name="Kawabata S."/>
+      </authorList>
+      <dbReference type="PubMed" id="18160402"/>
+      <dbReference type="DOI" id="10.1074/jbc.m704821200"/>
+    </citation>
+    <scope>PROTEOLYTIC CLEAVAGE (MICROBIAL INFECTION)</scope>
+  </reference>
+  <reference key="32">
+    <citation type="journal article" date="2008" name="PLoS Pathog." volume="4" first="E1000250" last="E1000250">
+      <title>The Staphylococcus aureus protein Sbi acts as a complement inhibitor and forms a tripartite complex with host complement Factor H and C3b.</title>
+      <authorList>
+        <person name="Haupt K."/>
+        <person name="Reuter M."/>
+        <person name="van den Elsen J."/>
+        <person name="Burman J."/>
+        <person name="Haelbich S."/>
+        <person name="Richter J."/>
+        <person name="Skerka C."/>
+        <person name="Zipfel P.F."/>
+      </authorList>
+      <dbReference type="PubMed" id="19112495"/>
+      <dbReference type="DOI" id="10.1371/journal.ppat.1000250"/>
+    </citation>
+    <scope>INTERACTION WITH STAPHYLOCOCCUS AUREUS PROTEIN SBI (MICROBIAL INFECTION)</scope>
+  </reference>
+  <reference key="33">
+    <citation type="journal article" date="2009" name="J. Proteome Res." volume="8" first="651" last="661">
+      <title>Glycoproteomics analysis of human liver tissue by combination of multiple enzyme digestion and hydrazide chemistry.</title>
+      <authorList>
+        <person name="Chen R."/>
+        <person name="Jiang X."/>
+        <person name="Sun D."/>
+        <person name="Han G."/>
+        <person name="Wang F."/>
+        <person name="Ye M."/>
+        <person name="Wang L."/>
+        <person name="Zou H."/>
+      </authorList>
+      <dbReference type="PubMed" id="19159218"/>
+      <dbReference type="DOI" id="10.1021/pr8008012"/>
+    </citation>
+    <scope>GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-85</scope>
+    <source>
+      <tissue>Liver</tissue>
+    </source>
+  </reference>
+  <reference key="34">
+    <citation type="journal article" date="2009" name="Mol. Immunol." volume="46" first="3086" last="3098">
+      <title>C5a- and ASP-mediated C5L2 activation, endocytosis and recycling are lost in S323I-C5L2 mutation.</title>
+      <authorList>
+        <person name="Cui W."/>
+        <person name="Simaan M."/>
+        <person name="Laporte S."/>
+        <person name="Lodge R."/>
+        <person name="Cianflone K."/>
+      </authorList>
+      <dbReference type="PubMed" id="19615750"/>
+      <dbReference type="DOI" id="10.1016/j.molimm.2009.06.007"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="35">
+    <citation type="journal article" date="2010" name="J. Immunol." volume="184" first="1946" last="1955">
+      <title>Mutational analyses reveal that the staphylococcal immune evasion molecule Sbi and complement receptor 2 (CR2) share overlapping contact residues on C3d: implications for the controversy regarding the CR2/C3d cocrystal structure.</title>
+      <authorList>
+        <person name="Isenman D.E."/>
+        <person name="Leung E."/>
+        <person name="Mackay J.D."/>
+        <person name="Bagby S."/>
+        <person name="van den Elsen J.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="20083651"/>
+      <dbReference type="DOI" id="10.4049/jimmunol.0902919"/>
+    </citation>
+    <scope>MUTAGENESIS OF ASP-1029; GLU-1030; GLU-1032; GLU-1035; ARG-1042; ASP-1140; GLU-1153; ASP-1156; GLU-1159; GLU-1160; ASN-1163 AND LYS-1284</scope>
+    <scope>INTERACTION WITH CR2 AND S.AUREUS SBI (MICROBIAL INFECTION)</scope>
+  </reference>
+  <reference key="36">
+    <citation type="journal article" date="2010" name="J. Mol. Biol." volume="404" first="697" last="710">
+      <title>Delineation of the complement receptor type 2-C3d complex by site-directed mutagenesis and molecular docking.</title>
+      <authorList>
+        <person name="Shaw C.D."/>
+        <person name="Storek M.J."/>
+        <person name="Young K.A."/>
+        <person name="Kovacs J.M."/>
+        <person name="Thurman J.M."/>
+        <person name="Holers V.M."/>
+        <person name="Hannan J.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="20951140"/>
+      <dbReference type="DOI" id="10.1016/j.jmb.2010.10.005"/>
+    </citation>
+    <scope>MUTAGENESIS OF ASP-1029; GLU-1030; GLU-1032; GLU-1110; ASP-1115; ASP-1121; ASP-1140; GLU-1153; ASP-1156; GLU-1159; GLU-1160 AND ASN-1163</scope>
+    <scope>INTERACTION WITH CR2</scope>
+  </reference>
+  <reference key="37">
+    <citation type="journal article" date="2010" name="Metabolism" volume="59" first="628" last="634">
+      <title>Serum complement C3: a determinant of cardiometabolic risk, additive to the metabolic syndrome, in middle-aged population.</title>
+      <authorList>
+        <person name="Onat A."/>
+        <person name="Hergenc G."/>
+        <person name="Can G."/>
+        <person name="Kaya Z."/>
+        <person name="Yuksel H."/>
+      </authorList>
+      <dbReference type="PubMed" id="19913840"/>
+      <dbReference type="DOI" id="10.1016/j.metabol.2009.09.006"/>
+    </citation>
+    <scope>ASSOCIATION WITH CORONARY HEART DISEASE</scope>
+  </reference>
+  <reference key="38">
+    <citation type="journal article" date="2011" name="J. Immunol." volume="186" first="6445" last="6453">
+      <title>Staphylococcus aureus metalloprotease aureolysin cleaves complement C3 to mediate immune evasion.</title>
+      <authorList>
+        <person name="Laarman A.J."/>
+        <person name="Ruyken M."/>
+        <person name="Malone C.L."/>
+        <person name="van Strijp J.A."/>
+        <person name="Horswill A.R."/>
+        <person name="Rooijakkers S.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="21502375"/>
+      <dbReference type="DOI" id="10.4049/jimmunol.1002948"/>
+    </citation>
+    <scope>CLEAVAGE BY STAPHYLOCOCCUS AUREUS PROTEIN AUREOLYSIN (MICROBIAL INFECTION)</scope>
+  </reference>
+  <reference key="39">
+    <citation type="journal article" date="2011" name="BMC Syst. Biol." volume="5" first="17" last="17">
+      <title>Initial characterization of the human central proteome.</title>
+      <authorList>
+        <person name="Burkard T.R."/>
+        <person name="Planyavsky M."/>
+        <person name="Kaupe I."/>
+        <person name="Breitwieser F.P."/>
+        <person name="Buerckstuemmer T."/>
+        <person name="Bennett K.L."/>
+        <person name="Superti-Furga G."/>
+        <person name="Colinge J."/>
+      </authorList>
+      <dbReference type="PubMed" id="21269460"/>
+      <dbReference type="DOI" id="10.1186/1752-0509-5-17"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="40">
+    <citation type="journal article" date="2014" name="J. Proteomics" volume="96" first="253" last="262">
+      <title>An enzyme assisted RP-RPLC approach for in-depth analysis of human liver phosphoproteome.</title>
+      <authorList>
+        <person name="Bian Y."/>
+        <person name="Song C."/>
+        <person name="Cheng K."/>
+        <person name="Dong M."/>
+        <person name="Wang F."/>
+        <person name="Huang J."/>
+        <person name="Sun D."/>
+        <person name="Wang L."/>
+        <person name="Ye M."/>
+        <person name="Zou H."/>
+      </authorList>
+      <dbReference type="PubMed" id="24275569"/>
+      <dbReference type="DOI" id="10.1016/j.jprot.2013.11.014"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Liver</tissue>
+    </source>
+  </reference>
+  <reference key="41">
+    <citation type="journal article" date="2015" name="Cell" volume="161" first="1619" last="1632">
+      <title>A single kinase generates the majority of the secreted phosphoproteome.</title>
+      <authorList>
+        <person name="Tagliabracci V.S."/>
+        <person name="Wiley S.E."/>
+        <person name="Guo X."/>
+        <person name="Kinch L.N."/>
+        <person name="Durrant E."/>
+        <person name="Wen J."/>
+        <person name="Xiao J."/>
+        <person name="Cui J."/>
+        <person name="Nguyen K.B."/>
+        <person name="Engel J.L."/>
+        <person name="Coon J.J."/>
+        <person name="Grishin N."/>
+        <person name="Pinna L.A."/>
+        <person name="Pagliarini D.J."/>
+        <person name="Dixon J.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="26091039"/>
+      <dbReference type="DOI" id="10.1016/j.cell.2015.05.028"/>
+    </citation>
+    <scope>PHOSPHORYLATION AT SER-38; SER-70; SER-297; SER-303; SER-672; SER-968; SER-1321 AND SER-1573</scope>
+  </reference>
+  <reference key="42">
+    <citation type="journal article" date="1988" name="Proc. Natl. Acad. Sci. U.S.A." volume="85" first="5036" last="5040">
+      <title>Secondary structure of complement component C3a anaphylatoxin in solution as determined by NMR spectroscopy: differences between crystal and solution conformations.</title>
+      <authorList>
+        <person name="Nettesheim D.G."/>
+        <person name="Edalji R.P."/>
+        <person name="Mollison K.W."/>
+        <person name="Greer J."/>
+        <person name="Zuiderweg E.R.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="3260670"/>
+      <dbReference type="DOI" id="10.1073/pnas.85.14.5036"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF C3A</scope>
+  </reference>
+  <reference key="43">
+    <citation type="journal article" date="1998" name="Science" volume="280" first="1277" last="1281">
+      <title>X-ray crystal structure of C3d: a C3 fragment and ligand for complement receptor 2.</title>
+      <authorList>
+        <person name="Nagar B."/>
+        <person name="Jones R.G."/>
+        <person name="Diefenbach R.J."/>
+        <person name="Isenman D.E."/>
+        <person name="Rini J.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="9596584"/>
+      <dbReference type="DOI" id="10.1126/science.280.5367.1277"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS) OF C3D</scope>
+  </reference>
+  <reference key="44">
+    <citation type="journal article" date="2001" name="Science" volume="292" first="1725" last="1728">
+      <title>Structure of complement receptor 2 in complex with its C3d ligand.</title>
+      <authorList>
+        <person name="Szakonyi G."/>
+        <person name="Guthridge J.M."/>
+        <person name="Li D."/>
+        <person name="Young K."/>
+        <person name="Holers V.M."/>
+        <person name="Chen X.S."/>
+      </authorList>
+      <dbReference type="PubMed" id="11387479"/>
+      <dbReference type="DOI" id="10.1126/science.1059118"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS) OF C3D IN COMPLEX WITH CR2</scope>
+    <scope>MUTAGENESIS OF 1108-ILE-LEU-1109 AND ASN-1163</scope>
+  </reference>
+  <reference key="45">
+    <citation type="journal article" date="2005" name="J. Mol. Biol." volume="346" first="859" last="873">
+      <title>Solution structure of the complex between CR2 SCR 1-2 and C3d of human complement: an X-ray scattering and sedimentation modelling study.</title>
+      <authorList>
+        <person name="Gilbert H.E."/>
+        <person name="Eaton J.T."/>
+        <person name="Hannan J.P."/>
+        <person name="Holers V.M."/>
+        <person name="Perkins S.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="15713468"/>
+      <dbReference type="DOI" id="10.1016/j.jmb.2004.12.006"/>
+    </citation>
+    <scope>X-RAY SCATTERING SOLUTION STRUCTURE OF C3D IN COMPLEX WITH CR2</scope>
+  </reference>
+  <reference key="46">
+    <citation type="journal article" date="2005" name="Nature" volume="437" first="505" last="511">
+      <title>Structures of complement component C3 provide insights into the function and evolution of immunity.</title>
+      <authorList>
+        <person name="Janssen B.J.C."/>
+        <person name="Huizinga E.G."/>
+        <person name="Raaijmakers H.C.A."/>
+        <person name="Roos A."/>
+        <person name="Daha M.R."/>
+        <person name="Nilsson-Ekdahl K."/>
+        <person name="Nilsson B."/>
+        <person name="Gros P."/>
+      </authorList>
+      <dbReference type="PubMed" id="16177781"/>
+      <dbReference type="DOI" id="10.1038/nature04005"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS) OF C3C</scope>
+    <scope>X-RAY CRYSTALLOGRAPHY (3.3 ANGSTROMS) OF C3</scope>
+  </reference>
+  <reference key="47">
+    <citation type="journal article" date="2006" name="Nature" volume="444" first="213" last="216">
+      <title>Structure of C3b reveals conformational changes that underlie complement activity.</title>
+      <authorList>
+        <person name="Janssen B.J.C."/>
+        <person name="Christodoulidou A."/>
+        <person name="McCarthy A."/>
+        <person name="Lambris J.D."/>
+        <person name="Gros P."/>
+      </authorList>
+      <dbReference type="PubMed" id="17051160"/>
+      <dbReference type="DOI" id="10.1038/nature05172"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (4.0 ANGSTROMS) OF C3B</scope>
+  </reference>
+  <reference key="48">
+    <citation type="journal article" date="2006" name="Nature" volume="444" first="217" last="220">
+      <title>Structure of C3b in complex with CRIg gives insights into regulation of complement activation.</title>
+      <authorList>
+        <person name="Wiesmann C."/>
+        <person name="Katschke K.J."/>
+        <person name="Yin J."/>
+        <person name="Helmy K.Y."/>
+        <person name="Steffek M."/>
+        <person name="Fairbrother W.J."/>
+        <person name="McCallum S.A."/>
+        <person name="Embuscado L."/>
+        <person name="DeForge L."/>
+        <person name="Hass P.E."/>
+        <person name="van Lookeren Campagne M."/>
+      </authorList>
+      <dbReference type="PubMed" id="17051150"/>
+      <dbReference type="DOI" id="10.1038/nature05263"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (3.1 ANGSTROMS) OF C3C IN COMPLEX WITH VSIG4</scope>
+    <scope>X-RAY CRYSTALLOGRAPHY (4.1 ANGSTROMS) OF C3B IN COMPLEX WITH VSIG4</scope>
+    <scope>GLYCOSYLATION AT ASN-85 AND ASN-939</scope>
+  </reference>
+  <reference key="49">
+    <citation type="journal article" date="2007" name="J. Biol. Chem." volume="282" first="29241" last="29247">
+      <title>Structure of compstatin in complex with complement component C3c reveals a new mechanism of complement inhibition.</title>
+      <authorList>
+        <person name="Janssen B.J."/>
+        <person name="Halff E.F."/>
+        <person name="Lambris J.D."/>
+        <person name="Gros P."/>
+      </authorList>
+      <dbReference type="PubMed" id="17684013"/>
+      <dbReference type="DOI" id="10.1074/jbc.m704587200"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS) OF 23-936 AND 1321-1663 IN COMPLEX WITH INHIBITOR COMPSTATIN</scope>
+    <scope>DISULFIDE BONDS</scope>
+    <scope>GLYCOSYLATION AT ASN-85</scope>
+  </reference>
+  <reference key="50">
+    <citation type="journal article" date="2007" name="Nat. Immunol." volume="8" first="430" last="437">
+      <title>A structural basis for complement inhibition by Staphylococcus aureus.</title>
+      <authorList>
+        <person name="Hammel M."/>
+        <person name="Sfyroera G."/>
+        <person name="Ricklin D."/>
+        <person name="Magotti P."/>
+        <person name="Lambris J.D."/>
+        <person name="Geisbrecht B.V."/>
+      </authorList>
+      <dbReference type="PubMed" id="17351618"/>
+      <dbReference type="DOI" id="10.1038/ni1450"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.20 ANGSTROMS) OF 996-1287 IN COMPLEX WITH STAPHYLOCOCCUS AUREUS PROTEIN FIB (MICROBIAL INFECTION)</scope>
+  </reference>
+  <reference key="51">
+    <citation type="journal article" date="2011" name="Mol. Immunol." volume="48" first="452" last="462">
+      <title>A structural basis for Staphylococcal complement subversion: X-ray structure of the complement-binding domain of Staphylococcus aureus protein Sbi in complex with ligand C3d.</title>
+      <authorList>
+        <person name="Clark E.A."/>
+        <person name="Crennell S."/>
+        <person name="Upadhyay A."/>
+        <person name="Zozulya A.V."/>
+        <person name="Mackay J.D."/>
+        <person name="Svergun D.I."/>
+        <person name="Bagby S."/>
+        <person name="van den Elsen J.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="21055811"/>
+      <dbReference type="DOI" id="10.1016/j.molimm.2010.09.017"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.70 ANGSTROMS) OF 996-1303 IN COMPLEX WITH STAPHYLOCOCCUS AUREUS SBI (MICROBIAL INFECTION)</scope>
+    <scope>SUBUNIT</scope>
+  </reference>
+  <reference key="52">
+    <citation type="journal article" date="2011" name="Science" volume="332" first="608" last="611">
+      <title>A crystal structure of the complex between human complement receptor 2 and its ligand C3d.</title>
+      <authorList>
+        <person name="van den Elsen J.M."/>
+        <person name="Isenman D.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="21527715"/>
+      <dbReference type="DOI" id="10.1126/science.1201954"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (3.16 ANGSTROMS) OF 996-1303 IN COMPLEX WITH CR2</scope>
+    <scope>INTERACTION WITH CR2</scope>
+  </reference>
+  <reference evidence="56" key="53">
+    <citation type="journal article" date="2017" name="EMBO J." volume="36" first="1084" last="1099">
+      <title>Functional and structural insight into properdin control of complement alternative pathway amplification.</title>
+      <authorList>
+        <person name="Pedersen D.V."/>
+        <person name="Roumenina L."/>
+        <person name="Jensen R.K."/>
+        <person name="Gadeberg T.A."/>
+        <person name="Marinozzi C."/>
+        <person name="Picard C."/>
+        <person name="Rybkine T."/>
+        <person name="Thiel S."/>
+        <person name="Soerensen U.B."/>
+        <person name="Stover C."/>
+        <person name="Fremeaux-Bacchi V."/>
+        <person name="Andersen G.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="28264884"/>
+      <dbReference type="DOI" id="10.15252/embj.201696173"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (6.0 ANGSTROMS) OF 23-667 AND 749-1663 IN COMPLEX WITH CFP; COMPLEMENT FACTOR B BB FRAGMENT AND STAPHYLOCOCCUS AUREUS PROTEIN SCN</scope>
+    <scope>INTERACTION WITH COMPLEMENT FACTOR B BB FRAGMENT AND CFP</scope>
+  </reference>
+  <reference evidence="57" key="54">
+    <citation type="journal article" date="2019" name="Front. Immunol." volume="10" first="2007" last="2007">
+      <title>Structural Basis for Properdin Oligomerization and Convertase Stimulation in the Human Complement System.</title>
+      <authorList>
+        <person name="Pedersen D.V."/>
+        <person name="Gadeberg T.A.F."/>
+        <person name="Thomas C."/>
+        <person name="Wang Y."/>
+        <person name="Joram N."/>
+        <person name="Jensen R.K."/>
+        <person name="Mazarakis S.M.M."/>
+        <person name="Revel M."/>
+        <person name="El Sissy C."/>
+        <person name="Petersen S.V."/>
+        <person name="Lindorff-Larsen K."/>
+        <person name="Thiel S."/>
+        <person name="Laursen N.S."/>
+        <person name="Fremeaux-Bacchi V."/>
+        <person name="Andersen G.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="31507604"/>
+      <dbReference type="DOI" id="10.3389/fimmu.2019.02007"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (6.15 ANGSTROMS) OF 23-667 AND 749-1663 IN COMPLEX WITH COMPLEMENT FACTOR B BB FRAGMENT; CFP AND STAPHYLOCOCCUS AUREUS PROTEIN SCN</scope>
+    <scope>INTERACTION WITH COMPLEMENT FACTOR B BB FRAGMENT AND CFP</scope>
+  </reference>
+  <reference key="55">
+    <citation type="journal article" date="1989" name="J. Immunol." volume="143" first="1254" last="1258">
+      <title>The difference between human C3F and C3S results from a single amino acid change from an asparagine to an aspartate residue at position 1216 on the alpha-chain of the complement component, C3.</title>
+      <authorList>
+        <person name="Poznansky M.C."/>
+        <person name="Clissold P.M."/>
+        <person name="Lachmann P.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="2473125"/>
+    </citation>
+    <scope>RETRACTED PAPER</scope>
+  </reference>
+  <reference key="56">
+    <citation type="journal article" date="1989" name="J. Immunol." volume="143" first="3860" last="3862">
+      <authorList>
+        <person name="Poznansky M.C."/>
+        <person name="Clissold P.M."/>
+        <person name="Lachmann P.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="2584723"/>
+    </citation>
+    <scope>RETRACTION NOTICE OF PUBMED:2473125</scope>
+  </reference>
+  <reference key="57">
+    <citation type="journal article" date="1990" name="J. Exp. Med." volume="172" first="1011" last="1017">
+      <title>Molecular basis of polymorphisms of human complement component C3.</title>
+      <authorList>
+        <person name="Botto M."/>
+        <person name="Yong Fong K."/>
+        <person name="So A.K."/>
+        <person name="Koch C."/>
+        <person name="Walport M.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="1976733"/>
+      <dbReference type="DOI" id="10.1084/jem.172.4.1011"/>
+    </citation>
+    <scope>VARIANTS GLY-102 AND LEU-314</scope>
+  </reference>
+  <reference key="58">
+    <citation type="journal article" date="1994" name="J. Biol. Chem." volume="269" first="28494" last="28499">
+      <title>Inherited human complement C3 deficiency. An amino acid substitution in the beta-chain (Asp549 to Asn) impairs C3 secretion.</title>
+      <authorList>
+        <person name="Singer L."/>
+        <person name="Whitehead W.T."/>
+        <person name="Akama H."/>
+        <person name="Katz Y."/>
+        <person name="Fishelson Z."/>
+        <person name="Wetsel R.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="7961791"/>
+      <dbReference type="DOI" id="10.1016/s0021-9258(18)46954-2"/>
+    </citation>
+    <scope>VARIANT C3D ASN-549</scope>
+  </reference>
+  <reference key="59">
+    <citation type="journal article" date="2007" name="N. Engl. J. Med." volume="357" first="553" last="561">
+      <title>Complement C3 variant and the risk of age-related macular degeneration.</title>
+      <authorList>
+        <person name="Yates J.R.W."/>
+        <person name="Sepp T."/>
+        <person name="Matharu B.K."/>
+        <person name="Khan J.C."/>
+        <person name="Thurlby D.A."/>
+        <person name="Shahid H."/>
+        <person name="Clayton D.G."/>
+        <person name="Hayward C."/>
+        <person name="Morgan J."/>
+        <person name="Wright A.F."/>
+        <person name="Armbrecht A.M."/>
+        <person name="Dhillon B."/>
+        <person name="Deary I.J."/>
+        <person name="Redmond E."/>
+        <person name="Bird A.C."/>
+        <person name="Moore A.T."/>
+      </authorList>
+      <dbReference type="PubMed" id="17634448"/>
+      <dbReference type="DOI" id="10.1056/nejmoa072618"/>
+    </citation>
+    <scope>ASSOCIATION OF VARIANT GLY-102 WITH ARMD9</scope>
+  </reference>
+  <reference key="60">
+    <citation type="journal article" date="2008" name="Blood" volume="112" first="4948" last="4952">
+      <title>Mutations in complement C3 predispose to development of atypical hemolytic uremic syndrome.</title>
+      <authorList>
+        <person name="Fremeaux-Bacchi V."/>
+        <person name="Miller E.C."/>
+        <person name="Liszewski M.K."/>
+        <person name="Strain L."/>
+        <person name="Blouin J."/>
+        <person name="Brown A.L."/>
+        <person name="Moghal N."/>
+        <person name="Kaplan B.S."/>
+        <person name="Weiss R.A."/>
+        <person name="Lhotta K."/>
+        <person name="Kapur G."/>
+        <person name="Mattoo T."/>
+        <person name="Nivet H."/>
+        <person name="Wong W."/>
+        <person name="Gie S."/>
+        <person name="Hurault de Ligny B."/>
+        <person name="Fischbach M."/>
+        <person name="Gupta R."/>
+        <person name="Hauhart R."/>
+        <person name="Meunier V."/>
+        <person name="Loirat C."/>
+        <person name="Dragon-Durey M.A."/>
+        <person name="Fridman W.H."/>
+        <person name="Janssen B.J."/>
+        <person name="Goodship T.H."/>
+        <person name="Atkinson J.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="18796626"/>
+      <dbReference type="DOI" id="10.1182/blood-2008-01-133702"/>
+    </citation>
+    <scope>VARIANTS AHUS5 GLN-592; TRP-592; TRP-735; VAL-1094; ASN-1115; TRP-1158; LYS-1161 AND ASP-1464</scope>
+    <scope>CHARACTERIZATION OF VARIANTS AHUS5 GLN-592; TRP-592; VAL-1094; ASN-1115 AND LYS-1161</scope>
+  </reference>
+  <reference key="61">
+    <citation type="journal article" date="2010" name="Hum. Mutat." volume="31" first="E1445" last="E1460">
+      <title>Mutations in alternative pathway complement proteins in American patients with atypical hemolytic uremic syndrome.</title>
+      <authorList>
+        <person name="Maga T.K."/>
+        <person name="Nishimura C.J."/>
+        <person name="Weaver A.E."/>
+        <person name="Frees K.L."/>
+        <person name="Smith R.J.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="20513133"/>
+      <dbReference type="DOI" id="10.1002/humu.21256"/>
+    </citation>
+    <scope>VARIANTS AHUS5 VAL-603 AND LEU-1042</scope>
+  </reference>
+  <reference key="62">
+    <citation type="journal article" date="2011" name="J. Mol. Cell Biol." volume="3" first="309" last="315">
+      <title>Quantitative detection of single amino acid polymorphisms by targeted proteomics.</title>
+      <authorList>
+        <person name="Su Z.D."/>
+        <person name="Sun L."/>
+        <person name="Yu D.X."/>
+        <person name="Li R.X."/>
+        <person name="Li H.X."/>
+        <person name="Yu Z.J."/>
+        <person name="Sheng Q.H."/>
+        <person name="Lin X."/>
+        <person name="Zeng R."/>
+        <person name="Wu J.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="22028381"/>
+      <dbReference type="DOI" id="10.1093/jmcb/mjr024"/>
+    </citation>
+    <scope>VARIANT ASN-549</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+  </reference>
+  <reference key="63">
+    <citation type="journal article" date="2011" name="Proc. Natl. Acad. Sci. U.S.A." volume="108" first="8761" last="8766">
+      <title>Common polymorphisms in C3, factor B, and factor H collaborate to determine systemic complement activity and disease risk.</title>
+      <authorList>
+        <person name="Heurich M."/>
+        <person name="Martinez-Barricarte R."/>
+        <person name="Francis N.J."/>
+        <person name="Roberts D.L."/>
+        <person name="Rodriguez de Cordoba S."/>
+        <person name="Morgan B.P."/>
+        <person name="Harris C.L."/>
+      </authorList>
+      <dbReference type="PubMed" id="21555552"/>
+      <dbReference type="DOI" id="10.1073/pnas.1019338108"/>
+    </citation>
+    <scope>CHARACTERIZATION OF VARIANT GLY-102</scope>
+  </reference>
+  <reference key="64">
+    <citation type="journal article" date="2011" name="Proc. Natl. Acad. Sci. U.S.A." volume="108" first="2897" last="2902">
+      <title>Dual interaction of factor H with C3d and glycosaminoglycans in host-nonhost discrimination by complement.</title>
+      <authorList>
+        <person name="Kajander T."/>
+        <person name="Lehtinen M.J."/>
+        <person name="Hyvaerinen S."/>
+        <person name="Bhattacharjee A."/>
+        <person name="Leung E."/>
+        <person name="Isenman D.E."/>
+        <person name="Meri S."/>
+        <person name="Goldman A."/>
+        <person name="Jokiranta T.S."/>
+      </authorList>
+      <dbReference type="PubMed" id="21285368"/>
+      <dbReference type="DOI" id="10.1073/pnas.1017087108"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.31 ANGSTROMS) OF 996-1287</scope>
+    <scope>INTERACTION WITH CFH</scope>
+  </reference>
+  <reference key="65">
+    <citation type="journal article" date="2011" name="Nat. Struct. Mol. Biol." volume="18" first="463" last="470">
+      <title>Structural basis for engagement by complement factor H of C3b on a self surface.</title>
+      <authorList>
+        <person name="Morgan H.P."/>
+        <person name="Schmidt C.Q."/>
+        <person name="Guariento M."/>
+        <person name="Blaum B.S."/>
+        <person name="Gillespie D."/>
+        <person name="Herbert A.P."/>
+        <person name="Kavanagh D."/>
+        <person name="Mertens H.D."/>
+        <person name="Svergun D.I."/>
+        <person name="Johansson C.M."/>
+        <person name="Uhrin D."/>
+        <person name="Barlow P.N."/>
+        <person name="Hannan J.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="21317894"/>
+      <dbReference type="DOI" id="10.1038/nsmb.2018"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.10 ANGSTROMS) OF 996-1303</scope>
+    <scope>INTERACTION WITH CFH</scope>
+  </reference>
+  <reference key="66">
+    <citation type="journal article" date="2013" name="Nat. Genet." volume="45" first="1366" last="1370">
+      <title>Rare variants in CFI, C3 and C9 are associated with high risk of advanced age-related macular degeneration.</title>
+      <authorList>
+        <person name="Seddon J.M."/>
+        <person name="Yu Y."/>
+        <person name="Miller E.C."/>
+        <person name="Reynolds R."/>
+        <person name="Tan P.L."/>
+        <person name="Gowrisankar S."/>
+        <person name="Goldstein J.I."/>
+        <person name="Triebwasser M."/>
+        <person name="Anderson H.E."/>
+        <person name="Zerbib J."/>
+        <person name="Kavanagh D."/>
+        <person name="Souied E."/>
+        <person name="Katsanis N."/>
+        <person name="Daly M.J."/>
+        <person name="Atkinson J.P."/>
+        <person name="Raychaudhuri S."/>
+      </authorList>
+      <dbReference type="PubMed" id="24036952"/>
+      <dbReference type="DOI" id="10.1038/ng.2741"/>
+    </citation>
+    <scope>VARIANT ARMD9 GLN-155</scope>
+    <scope>CHARACTERIZATION OF VARIANT ARMD9 GLN-155</scope>
+  </reference>
+  <comment type="function">
+    <text>C3 plays a central role in the activation of the complement system. Its processing by C3 convertase is the central reaction in both classical and alternative complement pathways. After activation C3b can bind covalently, via its reactive thioester, to cell surface carbohydrates or immune aggregates.</text>
+  </comment>
+  <comment type="function">
+    <text evidence="1">Derived from proteolytic degradation of complement C3, C3a anaphylatoxin is a mediator of local inflammatory process. In chronic inflammation, acts as a chemoattractant for neutrophils (By similarity). It induces the contraction of smooth muscle, increases vascular permeability and causes histamine release from mast cells and basophilic leukocytes.</text>
+  </comment>
+  <comment type="function">
+    <molecule>C3-beta-c</molecule>
+    <text evidence="1">Acts as a chemoattractant for neutrophils in chronic inflammation.</text>
+  </comment>
+  <comment type="function">
+    <molecule>Acylation stimulating protein</molecule>
+    <text evidence="6 12 14 24 44 50 52">Adipogenic hormone that stimulates triglyceride (TG) synthesis and glucose transport in adipocytes, regulating fat storage and playing a role in postprandial TG clearance. Appears to stimulate TG synthesis via activation of the PLC, MAPK and AKT signaling pathways. Ligand for C5AR2. Promotes the phosphorylation, ARRB2-mediated internalization and recycling of C5AR2 (PubMed:8376604, PubMed:2909530, PubMed:9059512, PubMed:10432298, PubMed:15833747, PubMed:16333141, PubMed:19615750).</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="7 8 9 16 19 26 28 30 31 33 42 43 45 46 47 49">C3 precursor is first processed by the removal of 4 Arg residues, forming two chains, beta and alpha, linked by a disulfide bond. C3 convertase activates C3 by cleaving the alpha chain, releasing C3a anaphylatoxin and generating C3b (beta chain + alpha' chain). Forms the pro-C3-convertase enzyme complex by interacting with Complement factor B Bb fragment (Bb), which is then stabilized by binding CFP, allowing the complex to become active (PubMed:28264884, PubMed:31507604). The interaction with Bb is dependent on Mg2+ (PubMed:31507604). C3b interacts with CR1 (via Sushi 8 and Sushi 9 domains) (PubMed:8175757, PubMed:2972794). C3b interacts with CFH (PubMed:21285368). C3d interacts with CFH (PubMed:21285368, PubMed:21317894). C3dg interacts with CR2 (via the N-terminal Sushi domains 1 and 2). During pregnancy, C3dg exists as a complex (probably a 2:2:2 heterohexamer) with AGT and the proform of PRG2. Interacts with VSIG4. Interacts (both C3a and ASP) with C5AR2; the interaction occurs with higher affinity for ASP, enhancing the phosphorylation and activation of C5AR2, recruitment of ARRB2 to the cell surface and endocytosis of GRP77.</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="43">(Microbial infection) C3b interacts with herpes simplex virus 1 (HHV-1) and herpes simplex virus 2 (HHV-2) envelope glycoprotein C; this interaction inhibits the activation of the complement system.</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="22 26 29">(Microbial infection) Interacts with Staphylococcus aureus immunoglobulin-binding protein Sbi; this interaction prevents the association between C3dg and CR2.</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="17">(Microbial infection) Interacts with Staphylococcus aureus protein Fib.</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-905851">
+      <id>P01024</id>
+    </interactant>
+    <interactant intactId="EBI-712648">
+      <id>O95994</id>
+      <label>AGR2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-905851">
+      <id>P01024</id>
+    </interactant>
+    <interactant intactId="EBI-2623451">
+      <id>P15529</id>
+      <label>CD46</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-905851">
+      <id>P01024</id>
+    </interactant>
+    <interactant intactId="EBI-1223668">
+      <id>P00751</id>
+      <label>CFB</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-905851">
+      <id>P01024</id>
+    </interactant>
+    <interactant intactId="EBI-1223708">
+      <id>P08603</id>
+      <label>CFH</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>6</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-905851">
+      <id>P01024</id>
+    </interactant>
+    <interactant intactId="EBI-22118464">
+      <id>PRO_0000005896</id>
+      <label>CFHR1</label>
+      <dbReference type="UniProtKB" id="Q03591"/>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-905851">
+      <id>P01024</id>
+    </interactant>
+    <interactant intactId="EBI-22033617">
+      <id>Q92496-1</id>
+      <label>CFHR4</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>5</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-905851">
+      <id>P01024</id>
+    </interactant>
+    <interactant intactId="EBI-2872467">
+      <id>P20023</id>
+      <label>CR2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>4</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-905851">
+      <id>P01024</id>
+    </interactant>
+    <interactant intactId="EBI-743414">
+      <id>O95967</id>
+      <label>EFEMP2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-905851">
+      <id>P01024</id>
+    </interactant>
+    <interactant intactId="EBI-5916454">
+      <id>A6NEM1</id>
+      <label>GOLGA6L9</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-905851">
+      <id>P01024</id>
+    </interactant>
+    <interactant intactId="EBI-948001">
+      <id>Q15323</id>
+      <label>KRT31</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-905851">
+      <id>P01024</id>
+    </interactant>
+    <interactant intactId="EBI-10171774">
+      <id>P60410</id>
+      <label>KRTAP10-8</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-905851">
+      <id>P01024</id>
+    </interactant>
+    <interactant intactId="EBI-742388">
+      <id>Q9H8W4</id>
+      <label>PLEKHF2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-905851">
+      <id>P01024</id>
+    </interactant>
+    <interactant intactId="EBI-903144">
+      <id>Q9Y279-1</id>
+      <label>VSIG4</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>5</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-905851">
+      <id>P01024</id>
+    </interactant>
+    <interactant intactId="EBI-903148">
+      <id>Q9Y279-2</id>
+      <label>VSIG4</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-6863145">
+      <id>PRO_0000005908</id>
+    </interactant>
+    <interactant intactId="EBI-12735725">
+      <id>PRO_0000005911</id>
+      <label>C3</label>
+      <dbReference type="UniProtKB" id="P01024"/>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>9</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-6863145">
+      <id>PRO_0000005908</id>
+    </interactant>
+    <interactant intactId="EBI-1223708">
+      <id>P08603</id>
+      <label>CFH</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>4</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-12735725">
+      <id>PRO_0000005911</id>
+    </interactant>
+    <interactant intactId="EBI-22033638">
+      <id>Q92496-3</id>
+      <label>CFHR4</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-21988425">
+      <id>PRO_0000005913</id>
+    </interactant>
+    <interactant intactId="EBI-21988278">
+      <id>PRO_0000005897</id>
+      <label>CFHR2</label>
+      <dbReference type="UniProtKB" id="P36980"/>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-6863106">
+      <id>PRO_0000005915</id>
+    </interactant>
+    <interactant intactId="EBI-1223708">
+      <id>P08603</id>
+      <label>CFH</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-6863106">
+      <id>PRO_0000005915</id>
+    </interactant>
+    <interactant intactId="EBI-21988278">
+      <id>PRO_0000005897</id>
+      <label>CFHR2</label>
+      <dbReference type="UniProtKB" id="P36980"/>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="tissue specificity">
+    <text evidence="12 53">Plasma. The acylation stimulating protein (ASP) is expressed in adipocytes and released into the plasma during both the fasting and postprandial periods.</text>
+  </comment>
+  <comment type="PTM">
+    <text>C3b is rapidly split in two positions by factor I and a cofactor to form iC3b (inactivated C3b) and C3f which is released. Then iC3b is slowly cleaved (possibly by factor I) to form C3c (beta chain + alpha' chain fragment 1 + alpha' chain fragment 2), C3dg and C3f. Other proteases produce other fragments such as C3d or C3g. C3a is further processed by carboxypeptidases to release the C-terminal arginine residue generating the acylation stimulating protein (ASP). Levels of ASP are increased in adipocytes in the postprandial period and by insulin and dietary chylomicrons.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="41">Phosphorylated by FAM20C in the extracellular medium.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="32">(Microbial infection) C3 is cleaved by Staphylococcus aureus aureolysin; this cleavage renders C3a and C3b inactive. C3b is rapidly degraded by host factors CFH and CFI preventing its deposition on the bacterial surface while C3a is further inactivated by aureolysin.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="20">(Microbial infection) Complement C3 beta chain is cleaved and inactivated by S.pyogenes SpeB.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="37">(Microbial infection) Cleaved by N.meningitidis NalP between Leu-744 and Gly-754, generating a slightly shorter C3 alpha form and a slightly longer C3 beta form. The C3b-like fragment is degraded in the presence of the complement regulators CFH and CFI, preventing its deposition on the bacterial surface.</text>
+  </comment>
+  <comment type="polymorphism">
+    <text>There are two alleles: C3S (C3 slow), the most common allele in all races and C3F (C3 fast), relatively frequent in Caucasians, less common in Black Americans, extremely rare in Orientals.</text>
+  </comment>
+  <comment type="disease" evidence="48">
+    <disease id="DI-01307">
+      <name>Complement component 3 deficiency</name>
+      <acronym>C3D</acronym>
+      <description>A rare defect of the complement classical pathway. Patients develop recurrent, severe, pyogenic infections because of ineffective opsonization of pathogens. Some patients may also develop autoimmune disorders, such as arthralgia and vasculitic rashes, lupus-like syndrome and membranoproliferative glomerulonephritis.</description>
+      <dbReference type="MIM" id="613779"/>
+    </disease>
+    <text>The disease is caused by variants affecting the gene represented in this entry.</text>
+  </comment>
+  <comment type="disease" evidence="18 36">
+    <disease id="DI-00062">
+      <name>Macular degeneration, age-related, 9</name>
+      <acronym>ARMD9</acronym>
+      <description>A form of age-related macular degeneration, a multifactorial eye disease and the most common cause of irreversible vision loss in the developed world. In most patients, the disease is manifest as ophthalmoscopically visible yellowish accumulations of protein and lipid that lie beneath the retinal pigment epithelium and within an elastin-containing structure known as Bruch membrane.</description>
+      <dbReference type="MIM" id="611378"/>
+    </disease>
+    <text>Disease susceptibility is associated with variants affecting the gene represented in this entry.</text>
+  </comment>
+  <comment type="disease" evidence="21 27">
+    <disease id="DI-02600">
+      <name>Hemolytic uremic syndrome atypical 5</name>
+      <acronym>AHUS5</acronym>
+      <description>An atypical form of hemolytic uremic syndrome. It is a complex genetic disease characterized by microangiopathic hemolytic anemia, thrombocytopenia, renal failure and absence of episodes of enterocolitis and diarrhea. In contrast to typical hemolytic uremic syndrome, atypical forms have a poorer prognosis, with higher death rates and frequent progression to end-stage renal disease.</description>
+      <dbReference type="MIM" id="612925"/>
+    </disease>
+    <text>Disease susceptibility is associated with variants affecting the gene represented in this entry. Other genes may play a role in modifying the phenotype.</text>
+  </comment>
+  <comment type="disease">
+    <text>Increased levels of C3 and its cleavage product ASP, are associated with obesity, diabetes and coronary heart disease. Short-term endurance training reduces baseline ASP levels and subsequently fat storage.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="7 33">An article reported the interaction surface between C3 and CR2 (PubMed:11387479). According to a another paper, it is however an artifact and can be ascribed to the presence of zinc acetate in the buffer (PubMed:21527715).</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="38 40">The difference between allele C3S (C3 slow) and allele C3F (C3 fast) was reported to be caused by a an Asn at position 1216 instead of an Asp (PubMed:2473125). The paper was however retracted (PubMed:2584723).</text>
+  </comment>
+  <comment type="online information" name="C3base">
+    <link uri="http://structure.bmc.lu.se/idbase/C3base/"/>
+    <text>C3 mutation db</text>
+  </comment>
+  <comment type="online information" name="Wikipedia">
+    <link uri="https://en.wikipedia.org/wiki/Complement_c3"/>
+    <text>Complement C3 entry</text>
+  </comment>
+  <comment type="online information" name="SeattleSNPs">
+    <link uri="http://pga.gs.washington.edu/data/c3/"/>
+  </comment>
+  <dbReference type="EMBL" id="K02765">
+    <property type="protein sequence ID" value="AAA85332.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AY513239">
+    <property type="protein sequence ID" value="AAR89906.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CH471139">
+    <property type="protein sequence ID" value="EAW69071.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC150179">
+    <property type="protein sequence ID" value="AAI50180.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC150200">
+    <property type="protein sequence ID" value="AAI50201.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS32883.1"/>
+  <dbReference type="PIR" id="A94065">
+    <property type="entry name" value="C3HU"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_000055.2">
+    <property type="nucleotide sequence ID" value="NM_000064.3"/>
+  </dbReference>
+  <dbReference type="PDB" id="1C3D">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.80 A"/>
+    <property type="chains" value="A=996-1287"/>
+  </dbReference>
+  <dbReference type="PDB" id="1GHQ">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.04 A"/>
+    <property type="chains" value="A=996-1300"/>
+  </dbReference>
+  <dbReference type="PDB" id="1W2S">
+    <property type="method" value="X-ray"/>
+    <property type="chains" value="A=996-1299"/>
+  </dbReference>
+  <dbReference type="PDB" id="2A73">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.30 A"/>
+    <property type="chains" value="A=23-665, B=673-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="2A74">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.40 A"/>
+    <property type="chains" value="A/D=23-665, B/E=749-936, C/F=1321-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="2GOX">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.20 A"/>
+    <property type="chains" value="A/C=996-1287"/>
+  </dbReference>
+  <dbReference type="PDB" id="2I07">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="4.00 A"/>
+    <property type="chains" value="A=23-667, B=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="2ICE">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.10 A"/>
+    <property type="chains" value="A/D=23-664, B/E=749-954, C/F=1321-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="2ICF">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="4.10 A"/>
+    <property type="chains" value="A=23-664, B=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="2NOJ">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.70 A"/>
+    <property type="chains" value="A/C/E/G=996-1287"/>
+  </dbReference>
+  <dbReference type="PDB" id="2QKI">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.40 A"/>
+    <property type="chains" value="A/D=23-665, B/E=749-936, C/F=1321-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="2WII">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.70 A"/>
+    <property type="chains" value="A=23-667, B=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="2WIN">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.90 A"/>
+    <property type="chains" value="A/C/E/G=23-667, B/D/F/H=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="2WY7">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.70 A"/>
+    <property type="chains" value="A=996-1303"/>
+  </dbReference>
+  <dbReference type="PDB" id="2WY8">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.70 A"/>
+    <property type="chains" value="A=996-1303"/>
+  </dbReference>
+  <dbReference type="PDB" id="2XQW">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.31 A"/>
+    <property type="chains" value="A/B=996-1287"/>
+  </dbReference>
+  <dbReference type="PDB" id="2XWB">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.49 A"/>
+    <property type="chains" value="A/C=23-664, B/D=752-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="2XWJ">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="4.00 A"/>
+    <property type="chains" value="A/C/E/G=23-667, B/D/F/H=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="3D5R">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.10 A"/>
+    <property type="chains" value="A/B=996-1287"/>
+  </dbReference>
+  <dbReference type="PDB" id="3D5S">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.30 A"/>
+    <property type="chains" value="A/B=996-1287"/>
+  </dbReference>
+  <dbReference type="PDB" id="3G6J">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.10 A"/>
+    <property type="chains" value="A/C=23-666, B/D=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="3L3O">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.40 A"/>
+    <property type="chains" value="A/D=23-667, B/E=749-954, C/F=1321-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="3L5N">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="7.54 A"/>
+    <property type="chains" value="A=23-667, B=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="3NMS">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="4.10 A"/>
+    <property type="chains" value="A=23-667, B=749-954, C=1321-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="3OED">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.16 A"/>
+    <property type="chains" value="A/B=996-1303"/>
+  </dbReference>
+  <dbReference type="PDB" id="3OHX">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.50 A"/>
+    <property type="chains" value="A/D=23-667, B/E=749-954, C/F=1321-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="3OXU">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.10 A"/>
+    <property type="chains" value="A/B/C=996-1303"/>
+  </dbReference>
+  <dbReference type="PDB" id="3RJ3">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.35 A"/>
+    <property type="chains" value="A/B/C=996-1303"/>
+  </dbReference>
+  <dbReference type="PDB" id="3T4A">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.40 A"/>
+    <property type="chains" value="A/D=23-667, B/E=749-954, C/F=1321-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="4HW5">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.25 A"/>
+    <property type="chains" value="A/B=672-748"/>
+  </dbReference>
+  <dbReference type="PDB" id="4HWJ">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.60 A"/>
+    <property type="chains" value="A=672-747"/>
+  </dbReference>
+  <dbReference type="PDB" id="4I6O">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.14 A"/>
+    <property type="chains" value="A=672-748"/>
+  </dbReference>
+  <dbReference type="PDB" id="4M76">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.80 A"/>
+    <property type="chains" value="A=994-1288"/>
+  </dbReference>
+  <dbReference type="PDB" id="4ONT">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.15 A"/>
+    <property type="chains" value="A/B/C=996-1303"/>
+  </dbReference>
+  <dbReference type="PDB" id="4ZH1">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.24 A"/>
+    <property type="chains" value="A/B/C=996-1303"/>
+  </dbReference>
+  <dbReference type="PDB" id="5FO7">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.80 A"/>
+    <property type="chains" value="A=23-667, B=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="5FO8">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.40 A"/>
+    <property type="chains" value="A=23-667, B=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="5FO9">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.30 A"/>
+    <property type="chains" value="A/D=23-667, B/E=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="5FOA">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="4.19 A"/>
+    <property type="chains" value="A/C=23-667, B/D=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="5FOB">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.60 A"/>
+    <property type="chains" value="A=23-667, B=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="5NBQ">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.18 A"/>
+    <property type="chains" value="A/B/C=994-1287"/>
+  </dbReference>
+  <dbReference type="PDB" id="5O32">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="4.21 A"/>
+    <property type="chains" value="A/E=23-667, B/F=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="5O35">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="4.20 A"/>
+    <property type="chains" value="A=23-667, B=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="6EHG">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.65 A"/>
+    <property type="chains" value="A=23-665, B=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="6RMT">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.00 A"/>
+    <property type="chains" value="A/B=996-1303"/>
+  </dbReference>
+  <dbReference type="PDB" id="6RMU">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.40 A"/>
+    <property type="chains" value="A/B=996-1303"/>
+  </dbReference>
+  <dbReference type="PDB" id="6RUR">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="6.00 A"/>
+    <property type="chains" value="A/G=23-667, B/H=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="6RUV">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="6.15 A"/>
+    <property type="chains" value="A/G=23-667, B/H=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="6S0B">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.31 A"/>
+    <property type="chains" value="C=1517-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="6YO6">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="6.00 A"/>
+    <property type="chains" value="A=23-667, B=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="7AKK">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.40 A"/>
+    <property type="chains" value="A/E=749-1663, B/C=23-667"/>
+  </dbReference>
+  <dbReference type="PDB" id="7BAG">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.00 A"/>
+    <property type="chains" value="A=23-667, B=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="7NOZ">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.90 A"/>
+    <property type="chains" value="A=23-667, B=752-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="7PI6">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.60 A"/>
+    <property type="chains" value="B/D=996-1287"/>
+  </dbReference>
+  <dbReference type="PDB" id="7QIV">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.80 A"/>
+    <property type="chains" value="A=23-667, B=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="7TV9">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.40 A"/>
+    <property type="chains" value="A=23-667, B=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="7UE9">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.75 A"/>
+    <property type="chains" value="C=994-1303"/>
+  </dbReference>
+  <dbReference type="PDB" id="7ZGK">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.59 A"/>
+    <property type="chains" value="A=23-667, B=749-1663"/>
+  </dbReference>
+  <dbReference type="PDB" id="8HK2">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="2.90 A"/>
+    <property type="chains" value="D=672-748"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="1C3D"/>
+  <dbReference type="PDBsum" id="1GHQ"/>
+  <dbReference type="PDBsum" id="1W2S"/>
+  <dbReference type="PDBsum" id="2A73"/>
+  <dbReference type="PDBsum" id="2A74"/>
+  <dbReference type="PDBsum" id="2GOX"/>
+  <dbReference type="PDBsum" id="2I07"/>
+  <dbReference type="PDBsum" id="2ICE"/>
+  <dbReference type="PDBsum" id="2ICF"/>
+  <dbReference type="PDBsum" id="2NOJ"/>
+  <dbReference type="PDBsum" id="2QKI"/>
+  <dbReference type="PDBsum" id="2WII"/>
+  <dbReference type="PDBsum" id="2WIN"/>
+  <dbReference type="PDBsum" id="2WY7"/>
+  <dbReference type="PDBsum" id="2WY8"/>
+  <dbReference type="PDBsum" id="2XQW"/>
+  <dbReference type="PDBsum" id="2XWB"/>
+  <dbReference type="PDBsum" id="2XWJ"/>
+  <dbReference type="PDBsum" id="3D5R"/>
+  <dbReference type="PDBsum" id="3D5S"/>
+  <dbReference type="PDBsum" id="3G6J"/>
+  <dbReference type="PDBsum" id="3L3O"/>
+  <dbReference type="PDBsum" id="3L5N"/>
+  <dbReference type="PDBsum" id="3NMS"/>
+  <dbReference type="PDBsum" id="3OED"/>
+  <dbReference type="PDBsum" id="3OHX"/>
+  <dbReference type="PDBsum" id="3OXU"/>
+  <dbReference type="PDBsum" id="3RJ3"/>
+  <dbReference type="PDBsum" id="3T4A"/>
+  <dbReference type="PDBsum" id="4HW5"/>
+  <dbReference type="PDBsum" id="4HWJ"/>
+  <dbReference type="PDBsum" id="4I6O"/>
+  <dbReference type="PDBsum" id="4M76"/>
+  <dbReference type="PDBsum" id="4ONT"/>
+  <dbReference type="PDBsum" id="4ZH1"/>
+  <dbReference type="PDBsum" id="5FO7"/>
+  <dbReference type="PDBsum" id="5FO8"/>
+  <dbReference type="PDBsum" id="5FO9"/>
+  <dbReference type="PDBsum" id="5FOA"/>
+  <dbReference type="PDBsum" id="5FOB"/>
+  <dbReference type="PDBsum" id="5NBQ"/>
+  <dbReference type="PDBsum" id="5O32"/>
+  <dbReference type="PDBsum" id="5O35"/>
+  <dbReference type="PDBsum" id="6EHG"/>
+  <dbReference type="PDBsum" id="6RMT"/>
+  <dbReference type="PDBsum" id="6RMU"/>
+  <dbReference type="PDBsum" id="6RUR"/>
+  <dbReference type="PDBsum" id="6RUV"/>
+  <dbReference type="PDBsum" id="6S0B"/>
+  <dbReference type="PDBsum" id="6YO6"/>
+  <dbReference type="PDBsum" id="7AKK"/>
+  <dbReference type="PDBsum" id="7BAG"/>
+  <dbReference type="PDBsum" id="7NOZ"/>
+  <dbReference type="PDBsum" id="7PI6"/>
+  <dbReference type="PDBsum" id="7QIV"/>
+  <dbReference type="PDBsum" id="7TV9"/>
+  <dbReference type="PDBsum" id="7UE9"/>
+  <dbReference type="PDBsum" id="7ZGK"/>
+  <dbReference type="PDBsum" id="8HK2"/>
+  <dbReference type="AlphaFoldDB" id="P01024"/>
+  <dbReference type="SMR" id="P01024"/>
+  <dbReference type="BioGRID" id="107179">
+    <property type="interactions" value="151"/>
+  </dbReference>
+  <dbReference type="ComplexPortal" id="CPX-5381">
+    <property type="entry name" value="Alternative pathway fluid-phase C3 convertase complex C3(H2O)Bb"/>
+  </dbReference>
+  <dbReference type="ComplexPortal" id="CPX-973">
+    <property type="entry name" value="Complement C3b complex"/>
+  </dbReference>
+  <dbReference type="CORUM" id="P01024"/>
+  <dbReference type="DIP" id="DIP-35180N"/>
+  <dbReference type="IntAct" id="P01024">
+    <property type="interactions" value="56"/>
+  </dbReference>
+  <dbReference type="MINT" id="P01024"/>
+  <dbReference type="STRING" id="9606.ENSP00000245907"/>
+  <dbReference type="BindingDB" id="P01024"/>
+  <dbReference type="ChEMBL" id="CHEMBL4917"/>
+  <dbReference type="DrugBank" id="DB09130">
+    <property type="generic name" value="Copper"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB00028">
+    <property type="generic name" value="Human immunoglobulin G"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB06492">
+    <property type="generic name" value="Mirococept"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB16694">
+    <property type="generic name" value="Pegcetacoplan"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB01915">
+    <property type="generic name" value="S-Hydroxycysteine"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB01593">
+    <property type="generic name" value="Zinc"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB14487">
+    <property type="generic name" value="Zinc acetate"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB14533">
+    <property type="generic name" value="Zinc chloride"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB14548">
+    <property type="generic name" value="Zinc sulfate, unspecified form"/>
+  </dbReference>
+  <dbReference type="MEROPS" id="I39.950"/>
+  <dbReference type="CarbonylDB" id="P01024"/>
+  <dbReference type="GlyConnect" id="110">
+    <property type="glycosylation" value="35 N-Linked glycans (3 sites), 1 O-Linked glycan (1 site)"/>
+  </dbReference>
+  <dbReference type="GlyCosmos" id="P01024">
+    <property type="glycosylation" value="4 sites, 51 glycans"/>
+  </dbReference>
+  <dbReference type="GlyGen" id="P01024">
+    <property type="glycosylation" value="5 sites, 50 N-linked glycans (4 sites), 2 O-linked glycans (2 sites)"/>
+  </dbReference>
+  <dbReference type="iPTMnet" id="P01024"/>
+  <dbReference type="MetOSite" id="P01024"/>
+  <dbReference type="PhosphoSitePlus" id="P01024"/>
+  <dbReference type="BioMuta" id="C3"/>
+  <dbReference type="DMDM" id="119370332"/>
+  <dbReference type="DOSAC-COBS-2DPAGE" id="P01024"/>
+  <dbReference type="SWISS-2DPAGE" id="P01024"/>
+  <dbReference type="CPTAC" id="CPTAC-1239"/>
+  <dbReference type="CPTAC" id="non-CPTAC-1105"/>
+  <dbReference type="CPTAC" id="non-CPTAC-1106"/>
+  <dbReference type="CPTAC" id="non-CPTAC-2653"/>
+  <dbReference type="EPD" id="P01024"/>
+  <dbReference type="jPOST" id="P01024"/>
+  <dbReference type="MassIVE" id="P01024"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000245907"/>
+  <dbReference type="PeptideAtlas" id="P01024"/>
+  <dbReference type="PRIDE" id="P01024"/>
+  <dbReference type="ProteomicsDB" id="51308"/>
+  <dbReference type="Pumba" id="P01024"/>
+  <dbReference type="ABCD" id="P01024">
+    <property type="antibodies" value="22 sequenced antibodies"/>
+  </dbReference>
+  <dbReference type="Antibodypedia" id="692">
+    <property type="antibodies" value="2086 antibodies from 44 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="718"/>
+  <dbReference type="Ensembl" id="ENST00000245907.11">
+    <property type="protein sequence ID" value="ENSP00000245907.4"/>
+    <property type="gene ID" value="ENSG00000125730.18"/>
+  </dbReference>
+  <dbReference type="GeneID" id="718"/>
+  <dbReference type="KEGG" id="hsa:718"/>
+  <dbReference type="MANE-Select" id="ENST00000245907.11">
+    <property type="protein sequence ID" value="ENSP00000245907.4"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_000064.4"/>
+    <property type="RefSeq protein sequence ID" value="NP_000055.2"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:1318"/>
+  <dbReference type="CTD" id="718"/>
+  <dbReference type="DisGeNET" id="718"/>
+  <dbReference type="GeneCards" id="C3"/>
+  <dbReference type="GeneReviews" id="C3"/>
+  <dbReference type="HGNC" id="HGNC:1318">
+    <property type="gene designation" value="C3"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000125730">
+    <property type="expression patterns" value="Tissue enriched (liver)"/>
+  </dbReference>
+  <dbReference type="MalaCards" id="C3"/>
+  <dbReference type="MIM" id="120700">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="MIM" id="611378">
+    <property type="type" value="phenotype"/>
+  </dbReference>
+  <dbReference type="MIM" id="612925">
+    <property type="type" value="phenotype"/>
+  </dbReference>
+  <dbReference type="MIM" id="613779">
+    <property type="type" value="phenotype"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_P01024"/>
+  <dbReference type="OpenTargets" id="ENSG00000125730"/>
+  <dbReference type="Orphanet" id="544472">
+    <property type="disease" value="Atypical hemolytic uremic syndrome with complement gene abnormality"/>
+  </dbReference>
+  <dbReference type="Orphanet" id="280133">
+    <property type="disease" value="Complement component 3 deficiency"/>
+  </dbReference>
+  <dbReference type="Orphanet" id="279">
+    <property type="disease" value="NON RARE IN EUROPE: Age-related macular degeneration"/>
+  </dbReference>
+  <dbReference type="PharmGKB" id="PA25897"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000125730"/>
+  <dbReference type="eggNOG" id="KOG1366">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00940000154063"/>
+  <dbReference type="HOGENOM" id="CLU_001634_4_0_1"/>
+  <dbReference type="InParanoid" id="P01024"/>
+  <dbReference type="OMA" id="QATNTMQ"/>
+  <dbReference type="OrthoDB" id="4033541at2759"/>
+  <dbReference type="PhylomeDB" id="P01024"/>
+  <dbReference type="TreeFam" id="TF313285"/>
+  <dbReference type="BRENDA" id="3.4.21.47">
+    <property type="organism ID" value="2681"/>
+  </dbReference>
+  <dbReference type="PathwayCommons" id="P01024"/>
+  <dbReference type="Reactome" id="R-HSA-173736">
+    <property type="pathway name" value="Alternative complement activation"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-174577">
+    <property type="pathway name" value="Activation of C3 and C5"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-198933">
+    <property type="pathway name" value="Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-375276">
+    <property type="pathway name" value="Peptide ligand-binding receptors"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-381426">
+    <property type="pathway name" value="Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-418594">
+    <property type="pathway name" value="G alpha (i) signalling events"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-6798695">
+    <property type="pathway name" value="Neutrophil degranulation"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-8957275">
+    <property type="pathway name" value="Post-translational protein phosphorylation"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9660826">
+    <property type="pathway name" value="Purinergic signaling in leishmaniasis infection"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-977606">
+    <property type="pathway name" value="Regulation of Complement cascade"/>
+  </dbReference>
+  <dbReference type="SABIO-RK" id="P01024"/>
+  <dbReference type="SignaLink" id="P01024"/>
+  <dbReference type="SIGNOR" id="P01024"/>
+  <dbReference type="BioGRID-ORCS" id="718">
+    <property type="hits" value="11 hits in 1163 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="C3">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="P01024"/>
+  <dbReference type="GeneWiki" id="Complement_component_3"/>
+  <dbReference type="GenomeRNAi" id="718"/>
+  <dbReference type="Pharos" id="P01024">
+    <property type="development level" value="Tclin"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:P01024"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 19"/>
+  </dbReference>
+  <dbReference type="RNAct" id="P01024">
+    <property type="molecule type" value="Protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000125730">
+    <property type="expression patterns" value="Expressed in parietal pleura and 198 other tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="P01024">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="Genevisible" id="P01024">
+    <property type="organism ID" value="HS"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0035578">
+    <property type="term" value="C:azurophil granule lumen"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="Reactome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0072562">
+    <property type="term" value="C:blood microparticle"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0009986">
+    <property type="term" value="C:cell surface"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005788">
+    <property type="term" value="C:endoplasmic reticulum lumen"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="Reactome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0070062">
+    <property type="term" value="C:extracellular exosome"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="Reactome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005615">
+    <property type="term" value="C:extracellular space"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005886">
+    <property type="term" value="C:plasma membrane"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="Reactome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0032991">
+    <property type="term" value="C:protein-containing complex"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0034774">
+    <property type="term" value="C:secretory granule lumen"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="Reactome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031715">
+    <property type="term" value="F:C5L2 anaphylatoxin chemotactic receptor binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004866">
+    <property type="term" value="F:endopeptidase inhibitor activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="ProtInc"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0097242">
+    <property type="term" value="P:amyloid-beta clearance"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="ARUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1905114">
+    <property type="term" value="P:cell surface receptor signaling pathway involved in cell-cell signaling"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006956">
+    <property type="term" value="P:complement activation"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006957">
+    <property type="term" value="P:complement activation, alternative pathway"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006958">
+    <property type="term" value="P:complement activation, classical pathway"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0097278">
+    <property type="term" value="P:complement-dependent cytotoxicity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0150062">
+    <property type="term" value="P:complement-mediated synapse pruning"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="ARUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006631">
+    <property type="term" value="P:fatty acid metabolic process"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0007186">
+    <property type="term" value="P:G protein-coupled receptor signaling pathway"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="ProtInc"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006955">
+    <property type="term" value="P:immune response"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="ProtInc"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006954">
+    <property type="term" value="P:inflammatory response"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016322">
+    <property type="term" value="P:neuron remodeling"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="ARUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0035846">
+    <property type="term" value="P:oviduct epithelium development"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0001970">
+    <property type="term" value="P:positive regulation of activation of membrane attack complex"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0045766">
+    <property type="term" value="P:positive regulation of angiogenesis"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:2000427">
+    <property type="term" value="P:positive regulation of apoptotic cell clearance"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0045745">
+    <property type="term" value="P:positive regulation of G protein-coupled receptor signaling pathway"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0010828">
+    <property type="term" value="P:positive regulation of glucose transmembrane transport"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0010884">
+    <property type="term" value="P:positive regulation of lipid storage"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0060100">
+    <property type="term" value="P:positive regulation of phagocytosis, engulfment"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="ARUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0001934">
+    <property type="term" value="P:positive regulation of protein phosphorylation"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0048260">
+    <property type="term" value="P:positive regulation of receptor-mediated endocytosis"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="ARUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0001798">
+    <property type="term" value="P:positive regulation of type IIa hypersensitivity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0010575">
+    <property type="term" value="P:positive regulation of vascular endothelial growth factor production"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0010866">
+    <property type="term" value="P:regulation of triglyceride biosynthetic process"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0009617">
+    <property type="term" value="P:response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0007165">
+    <property type="term" value="P:signal transduction"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="ProtInc"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0150064">
+    <property type="term" value="P:vertebrate eye-specific patterning"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="ARUK-UCL"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd00017">
+    <property type="entry name" value="ANATO"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd02896">
+    <property type="entry name" value="complement_C3_C4_C5"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd03583">
+    <property type="entry name" value="NTR_complement_C3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.50.10.20">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.20.130.20">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.40.50.120">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.60.120.1540">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.60.40.1930">
+    <property type="match status" value="3"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.60.40.1940">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="6.20.50.160">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.60.40.690">
+    <property type="entry name" value="Alpha-macroglobulin, receptor-binding domain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.91.20">
+    <property type="entry name" value="Anaphylotoxins (complement system)"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.60.40.10">
+    <property type="entry name" value="Immunoglobulins"/>
+    <property type="match status" value="2"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009048">
+    <property type="entry name" value="A-macroglobulin_rcpt-bd"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR036595">
+    <property type="entry name" value="A-macroglobulin_rcpt-bd_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR011625">
+    <property type="entry name" value="A2M_N_BRD"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR047565">
+    <property type="entry name" value="Alpha-macroglob_thiol-ester_cl"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR011626">
+    <property type="entry name" value="Alpha-macroglobulin_TED"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000020">
+    <property type="entry name" value="Anaphylatoxin/fibulin"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR018081">
+    <property type="entry name" value="Anaphylatoxin_comp_syst"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR001840">
+    <property type="entry name" value="Anaphylatoxn_comp_syst_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR041425">
+    <property type="entry name" value="C3/4/5_MG1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR013783">
+    <property type="entry name" value="Ig-like_fold"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR001599">
+    <property type="entry name" value="Macroglobln_a2"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR019742">
+    <property type="entry name" value="MacrogloblnA2_CS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002890">
+    <property type="entry name" value="MG2"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR041555">
+    <property type="entry name" value="MG3"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR040839">
+    <property type="entry name" value="MG4"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR001134">
+    <property type="entry name" value="Netrin_domain"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR018933">
+    <property type="entry name" value="Netrin_module_non-TIMP"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR035815">
+    <property type="entry name" value="NTR_complement_C3"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR008930">
+    <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR008993">
+    <property type="entry name" value="TIMP-like_OB-fold"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR11412:SF81">
+    <property type="entry name" value="COMPLEMENT C3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR11412">
+    <property type="entry name" value="MACROGLOBULIN / COMPLEMENT"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00207">
+    <property type="entry name" value="A2M"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF07703">
+    <property type="entry name" value="A2M_BRD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF07677">
+    <property type="entry name" value="A2M_recep"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01821">
+    <property type="entry name" value="ANATO"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF17790">
+    <property type="entry name" value="MG1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01835">
+    <property type="entry name" value="MG2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF17791">
+    <property type="entry name" value="MG3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF17789">
+    <property type="entry name" value="MG4"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01759">
+    <property type="entry name" value="NTR"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF07678">
+    <property type="entry name" value="TED_complement"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR00004">
+    <property type="entry name" value="ANAPHYLATOXN"/>
+  </dbReference>
+  <dbReference type="SFLD" id="SFLDG01179">
+    <property type="entry name" value="Complement_C3/C4_Like"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM01360">
+    <property type="entry name" value="A2M"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM01359">
+    <property type="entry name" value="A2M_N_2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM01361">
+    <property type="entry name" value="A2M_recep"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00104">
+    <property type="entry name" value="ANATO"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00643">
+    <property type="entry name" value="C345C"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM01419">
+    <property type="entry name" value="Thiol-ester_cl"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF49410">
+    <property type="entry name" value="Alpha-macroglobulin receptor domain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47686">
+    <property type="entry name" value="Anaphylotoxins (complement system)"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF48239">
+    <property type="entry name" value="Terpenoid cyclases/Protein prenyltransferases"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF50242">
+    <property type="entry name" value="TIMP-like"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00477">
+    <property type="entry name" value="ALPHA_2_MACROGLOBULIN"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS01177">
+    <property type="entry name" value="ANAPHYLATOXIN_1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS01178">
+    <property type="entry name" value="ANAPHYLATOXIN_2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS50189">
+    <property type="entry name" value="NTR"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0913">Age-related macular degeneration</keyword>
+  <keyword id="KW-0165">Cleavage on pair of basic residues</keyword>
+  <keyword id="KW-0179">Complement alternate pathway</keyword>
+  <keyword id="KW-0180">Complement pathway</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0225">Disease variant</keyword>
+  <keyword id="KW-1015">Disulfide bond</keyword>
+  <keyword id="KW-0276">Fatty acid metabolism</keyword>
+  <keyword id="KW-0325">Glycoprotein</keyword>
+  <keyword id="KW-1068">Hemolytic uremic syndrome</keyword>
+  <keyword id="KW-0391">Immunity</keyword>
+  <keyword id="KW-0395">Inflammatory response</keyword>
+  <keyword id="KW-0399">Innate immunity</keyword>
+  <keyword id="KW-0443">Lipid metabolism</keyword>
+  <keyword id="KW-0597">Phosphoprotein</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0732">Signal</keyword>
+  <keyword id="KW-0882">Thioester bond</keyword>
+  <feature type="signal peptide" evidence="50">
+    <location>
+      <begin position="1"/>
+      <end position="22"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000005907" description="Complement C3">
+    <location>
+      <begin position="23"/>
+      <end position="1663"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000005908" description="Complement C3 beta chain">
+    <location>
+      <begin position="23"/>
+      <end position="667"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000430430" description="C3-beta-c" evidence="1">
+    <location>
+      <begin position="569"/>
+      <end position="667"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000005909" description="Complement C3 alpha chain">
+    <location>
+      <begin position="672"/>
+      <end position="1663"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000005910" description="C3a anaphylatoxin">
+    <location>
+      <begin position="672"/>
+      <end position="748"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000419935" description="Acylation stimulating protein">
+    <location>
+      <begin position="672"/>
+      <end position="747"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000005911" description="Complement C3b alpha' chain">
+    <location>
+      <begin position="749"/>
+      <end position="1663"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000005912" description="Complement C3c alpha' chain fragment 1">
+    <location>
+      <begin position="749"/>
+      <end position="954"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000005913" description="Complement C3dg fragment">
+    <location>
+      <begin position="955"/>
+      <end position="1303"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000005914" description="Complement C3g fragment">
+    <location>
+      <begin position="955"/>
+      <end position="1001"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000005915" description="Complement C3d fragment">
+    <location>
+      <begin position="1002"/>
+      <end position="1303"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000005916" description="Complement C3f fragment" evidence="50">
+    <location>
+      <begin position="1304"/>
+      <end position="1320"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000273948" description="Complement C3c alpha' chain fragment 2">
+    <location>
+      <begin position="1321"/>
+      <end position="1663"/>
+    </location>
+  </feature>
+  <feature type="domain" description="Anaphylatoxin-like" evidence="3">
+    <location>
+      <begin position="693"/>
+      <end position="728"/>
+    </location>
+  </feature>
+  <feature type="domain" description="NTR" evidence="4">
+    <location>
+      <begin position="1518"/>
+      <end position="1661"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="5">
+    <location>
+      <begin position="954"/>
+      <end position="973"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Interaction with CFP/properdin" evidence="42 46">
+    <location>
+      <begin position="1634"/>
+      <end position="1659"/>
+    </location>
+  </feature>
+  <feature type="site" description="Cleavage; by S.pyogenes SpeB" evidence="20">
+    <location>
+      <begin position="541"/>
+      <end position="542"/>
+    </location>
+  </feature>
+  <feature type="site" description="Cleavage; by carboxypeptidases">
+    <location>
+      <begin position="747"/>
+      <end position="748"/>
+    </location>
+  </feature>
+  <feature type="site" description="Cleavage; by C3 convertase">
+    <location>
+      <begin position="748"/>
+      <end position="749"/>
+    </location>
+  </feature>
+  <feature type="site" description="Cleavage; by factor I" evidence="2">
+    <location>
+      <begin position="954"/>
+      <end position="955"/>
+    </location>
+  </feature>
+  <feature type="site" description="Cleavage; by factor I">
+    <location>
+      <begin position="1303"/>
+      <end position="1304"/>
+    </location>
+  </feature>
+  <feature type="site" description="Cleavage; by factor I">
+    <location>
+      <begin position="1320"/>
+      <end position="1321"/>
+    </location>
+  </feature>
+  <feature type="site" description="Coordinates Mg2+ for interaction with Complement factor B Bb fragment" evidence="42 46">
+    <location>
+      <position position="1663"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine; by FAM20C" evidence="41">
+    <location>
+      <position position="38"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine; by FAM20C" evidence="41">
+    <location>
+      <position position="70"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine; by FAM20C" evidence="41">
+    <location>
+      <position position="297"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine; by FAM20C" evidence="41">
+    <location>
+      <position position="303"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine; by FAM20C" evidence="41">
+    <location>
+      <position position="672"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine; by FAM20C" evidence="41">
+    <location>
+      <position position="968"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine; by FAM20C" evidence="41">
+    <location>
+      <position position="1321"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine; by FAM20C" evidence="41">
+    <location>
+      <position position="1573"/>
+    </location>
+  </feature>
+  <feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="10 13 15 16 19 23 39">
+    <location>
+      <position position="85"/>
+    </location>
+  </feature>
+  <feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="11 15 16">
+    <location>
+      <position position="939"/>
+    </location>
+  </feature>
+  <feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="15">
+    <location>
+      <position position="1617"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond" description="Interchain (between beta and alpha chains)">
+    <location>
+      <begin position="559"/>
+      <end position="816"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond">
+    <location>
+      <begin position="627"/>
+      <end position="662"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond" evidence="51">
+    <location>
+      <begin position="693"/>
+      <end position="720"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond">
+    <location>
+      <begin position="694"/>
+      <end position="727"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond">
+    <location>
+      <begin position="707"/>
+      <end position="728"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond">
+    <location>
+      <begin position="873"/>
+      <end position="1513"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond">
+    <location>
+      <begin position="1101"/>
+      <end position="1158"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond">
+    <location>
+      <begin position="1358"/>
+      <end position="1489"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond">
+    <location>
+      <begin position="1389"/>
+      <end position="1458"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond">
+    <location>
+      <begin position="1506"/>
+      <end position="1511"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond">
+    <location>
+      <begin position="1518"/>
+      <end position="1590"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond">
+    <location>
+      <begin position="1537"/>
+      <end position="1661"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond">
+    <location>
+      <begin position="1637"/>
+      <end position="1646"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Isoglutamyl cysteine thioester (Cys-Gln)">
+    <location>
+      <begin position="1010"/>
+      <end position="1013"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_001983" description="In allele C3F; associated with susceptibility to ARMD9; results in decreased binding affinity for regulator factor H; results in reduced sensitivity to cleavage by factor I; dbSNP:rs2230199." evidence="25 34 54">
+    <original>R</original>
+    <variation>G</variation>
+    <location>
+      <position position="102"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_070941" description="In ARMD9; results in resistance to proteolytic inactivation by CFH and CFI; dbSNP:rs147859257." evidence="36">
+    <original>K</original>
+    <variation>Q</variation>
+    <location>
+      <position position="155"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_001984" description="In dbSNP:rs1047286." evidence="25 39 54">
+    <original>P</original>
+    <variation>L</variation>
+    <location>
+      <position position="314"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_020262" description="In dbSNP:rs11569422.">
+    <original>E</original>
+    <variation>D</variation>
+    <location>
+      <position position="469"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_001985" description="In C3D; impairs secretion; variant confirmed at protein level; dbSNP:rs1449441916." evidence="35 48">
+    <original>D</original>
+    <variation>N</variation>
+    <location>
+      <position position="549"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_063213" description="In AHUS5; leads to impaired binding to the regulator CD46/MCP and resistance to cleavage by factor I; dbSNP:rs121909583." evidence="21">
+    <original>R</original>
+    <variation>Q</variation>
+    <location>
+      <position position="592"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_063214" description="In AHUS5; leads to impaired binding to the regulator CD46/MCP and resistance to cleavage by factor I; dbSNP:rs771353792." evidence="21">
+    <original>R</original>
+    <variation>W</variation>
+    <location>
+      <position position="592"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_063654" description="In AHUS5." evidence="27">
+    <original>F</original>
+    <variation>V</variation>
+    <location>
+      <position position="603"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_063215" description="In AHUS5; dbSNP:rs117793540." evidence="21">
+    <original>R</original>
+    <variation>W</variation>
+    <location>
+      <position position="735"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_019206" description="In dbSNP:rs11569472." evidence="54">
+    <original>R</original>
+    <variation>K</variation>
+    <location>
+      <position position="863"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_063655" description="In AHUS5." evidence="27">
+    <original>R</original>
+    <variation>L</variation>
+    <location>
+      <position position="1042"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_063216" description="In AHUS5; leads to impaired binding to the regulator CD46/MCP and resistance to cleavage by factor I; dbSNP:rs121909584." evidence="21">
+    <original>A</original>
+    <variation>V</variation>
+    <location>
+      <position position="1094"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_063217" description="In AHUS5; leads to impaired binding to the regulator CD46/MCP and resistance to cleavage by factor I; dbSNP:rs121909585." evidence="21">
+    <original>D</original>
+    <variation>N</variation>
+    <location>
+      <position position="1115"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_063218" description="In AHUS5." evidence="21">
+    <original>C</original>
+    <variation>W</variation>
+    <location>
+      <position position="1158"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_063219" description="In AHUS5; leads to impaired binding to the regulator CD46/MCP and resistance to cleavage by factor I." evidence="21">
+    <original>Q</original>
+    <variation>K</variation>
+    <location>
+      <position position="1161"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_019207" description="In dbSNP:rs11569534." evidence="54">
+    <original>G</original>
+    <variation>D</variation>
+    <location>
+      <position position="1224"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_019208" description="In dbSNP:rs11569541." evidence="54">
+    <original>I</original>
+    <variation>T</variation>
+    <location>
+      <position position="1367"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_063220" description="In AHUS5." evidence="21">
+    <original>H</original>
+    <variation>D</variation>
+    <location>
+      <position position="1464"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_029792" description="In dbSNP:rs7256789.">
+    <original>Q</original>
+    <variation>R</variation>
+    <location>
+      <position position="1521"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_029793" description="In dbSNP:rs1803225.">
+    <original>H</original>
+    <variation>N</variation>
+    <location>
+      <position position="1601"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_029326" description="In dbSNP:rs2230210.">
+    <original>S</original>
+    <variation>R</variation>
+    <location>
+      <position position="1619"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Minor effect on binding of C3d to CR2." evidence="26 28">
+    <original>D</original>
+    <variation>A</variation>
+    <location>
+      <position position="1029"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Impaired binding of C3d to CR2." evidence="26 28">
+    <original>E</original>
+    <variation>A</variation>
+    <location>
+      <position position="1030"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Impaired binding of C3d to CR2." evidence="26 28">
+    <original>E</original>
+    <variation>A</variation>
+    <location>
+      <position position="1032"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect on binding of C3d to CR2." evidence="26">
+    <original>E</original>
+    <variation>A</variation>
+    <location>
+      <position position="1035"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Impaired binding of C3d to CR2." evidence="26">
+    <original>R</original>
+    <variation>M</variation>
+    <location>
+      <position position="1042"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Impaired binding of C3d to CR2; when associated with A-1163." evidence="7">
+    <original>IL</original>
+    <variation>RR</variation>
+    <location>
+      <begin position="1108"/>
+      <end position="1109"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect on binding of C3d to CR2." evidence="28">
+    <original>E</original>
+    <variation>A</variation>
+    <location>
+      <position position="1110"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect on binding of C3d to CR2." evidence="28">
+    <original>D</original>
+    <variation>A</variation>
+    <location>
+      <position position="1115"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect on binding of C3d to CR2." evidence="28">
+    <original>D</original>
+    <variation>A</variation>
+    <location>
+      <position position="1121"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect on binding of C3d to CR2." evidence="26 28">
+    <original>D</original>
+    <variation>A</variation>
+    <location>
+      <position position="1140"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Impaired binding of C3d to CR2." evidence="26 28">
+    <original>E</original>
+    <variation>A</variation>
+    <location>
+      <position position="1153"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Impaired binding of C3d to CR2." evidence="26 28">
+    <original>D</original>
+    <variation>A</variation>
+    <location>
+      <position position="1156"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Impaired binding of C3d to CR2." evidence="26 28">
+    <original>E</original>
+    <variation>A</variation>
+    <location>
+      <position position="1159"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Minor effect on binding of C3d to CR2." evidence="26 28">
+    <original>E</original>
+    <variation>A</variation>
+    <location>
+      <position position="1160"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect on binding of C3d to CR2. Impaired binding of C3d to CR2; when associated with 1108-R-R-1109." evidence="7 26 28">
+    <original>N</original>
+    <variation>A</variation>
+    <location>
+      <position position="1163"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Impaired binding of C3d to CR2." evidence="7 26 28">
+    <original>N</original>
+    <variation>R</variation>
+    <location>
+      <position position="1163"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Impaired binding of C3d to CR2." evidence="26">
+    <original>K</original>
+    <variation>A</variation>
+    <location>
+      <position position="1284"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 6; AA sequence." evidence="55" ref="6">
+    <original>D</original>
+    <variation>N</variation>
+    <location>
+      <position position="681"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 6; AA sequence." evidence="55" ref="6">
+    <original>E</original>
+    <variation>Q</variation>
+    <location>
+      <position position="700"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 9; AA sequence." evidence="55" ref="9">
+    <original>H</original>
+    <variation>S</variation>
+    <location>
+      <position position="1026"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="25"/>
+      <end position="35"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="40"/>
+      <end position="47"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="53"/>
+      <end position="61"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="80">
+    <location>
+      <begin position="62"/>
+      <end position="64"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="67"/>
+      <end position="76"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="80">
+    <location>
+      <begin position="78"/>
+      <end position="82"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="83"/>
+      <end position="88"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="61">
+    <location>
+      <begin position="94"/>
+      <end position="97"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="104"/>
+      <end position="112"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="115"/>
+      <end position="124"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="129"/>
+      <end position="135"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="137"/>
+      <end position="139"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="144"/>
+      <end position="152"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="162"/>
+      <end position="168"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="174"/>
+      <end position="181"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="80">
+    <location>
+      <begin position="183"/>
+      <end position="187"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="188"/>
+      <end position="194"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="202"/>
+      <end position="210"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="67">
+    <location>
+      <begin position="214"/>
+      <end position="216"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="218"/>
+      <end position="224"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="231"/>
+      <end position="244"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="251"/>
+      <end position="259"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="267"/>
+      <end position="277"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="280"/>
+      <end position="283"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="285"/>
+      <end position="287"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="289"/>
+      <end position="294"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="297"/>
+      <end position="302"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="304"/>
+      <end position="309"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="80">
+    <location>
+      <begin position="310"/>
+      <end position="312"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="316"/>
+      <end position="319"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="323"/>
+      <end position="332"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="338"/>
+      <end position="352"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="354"/>
+      <end position="356"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="59">
+    <location>
+      <begin position="358"/>
+      <end position="360"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="362"/>
+      <end position="364"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="81">
+    <location>
+      <begin position="366"/>
+      <end position="368"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="370"/>
+      <end position="377"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="71">
+    <location>
+      <begin position="379"/>
+      <end position="381"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="388"/>
+      <end position="393"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="63">
+    <location>
+      <begin position="395"/>
+      <end position="397"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="398"/>
+      <end position="400"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="405"/>
+      <end position="411"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="75">
+    <location>
+      <begin position="415"/>
+      <end position="417"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="420"/>
+      <end position="426"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="60">
+    <location>
+      <begin position="429"/>
+      <end position="431"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="433"/>
+      <end position="435"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="438"/>
+      <end position="445"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="449"/>
+      <end position="451"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="455"/>
+      <end position="459"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="470"/>
+      <end position="478"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="80">
+    <location>
+      <begin position="481"/>
+      <end position="483"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="484"/>
+      <end position="486"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="489"/>
+      <end position="496"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="499"/>
+      <end position="507"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="513"/>
+      <end position="520"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="523"/>
+      <end position="525"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="527"/>
+      <end position="538"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="63">
+    <location>
+      <begin position="540"/>
+      <end position="542"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="544"/>
+      <end position="554"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="563"/>
+      <end position="569"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="68">
+    <location>
+      <begin position="571"/>
+      <end position="573"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="580"/>
+      <end position="588"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="592"/>
+      <end position="599"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="600"/>
+      <end position="605"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="613"/>
+      <end position="622"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="628"/>
+      <end position="630"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="635"/>
+      <end position="641"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="644"/>
+      <end position="648"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="72">
+    <location>
+      <begin position="675"/>
+      <end position="684"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="73">
+    <location>
+      <begin position="688"/>
+      <end position="697"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="82">
+    <location>
+      <begin position="702"/>
+      <end position="705"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="73">
+    <location>
+      <begin position="707"/>
+      <end position="710"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="72">
+    <location>
+      <begin position="712"/>
+      <end position="714"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="73">
+    <location>
+      <begin position="718"/>
+      <end position="743"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="69">
+    <location>
+      <begin position="753"/>
+      <end position="755"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="758"/>
+      <end position="760"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="769"/>
+      <end position="771"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="775"/>
+      <end position="777"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="783"/>
+      <end position="794"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="800"/>
+      <end position="810"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="80">
+    <location>
+      <begin position="811"/>
+      <end position="813"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="814"/>
+      <end position="817"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="821"/>
+      <end position="825"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="828"/>
+      <end position="834"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="837"/>
+      <end position="840"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="845"/>
+      <end position="853"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="860"/>
+      <end position="866"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="872"/>
+      <end position="875"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="878"/>
+      <end position="880"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="882"/>
+      <end position="888"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="892"/>
+      <end position="902"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="906"/>
+      <end position="916"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="68">
+    <location>
+      <begin position="917"/>
+      <end position="920"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="922"/>
+      <end position="932"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="934"/>
+      <end position="947"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="80">
+    <location>
+      <begin position="949"/>
+      <end position="951"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="954"/>
+      <end position="956"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="75">
+    <location>
+      <begin position="957"/>
+      <end position="962"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="76">
+    <location>
+      <begin position="968"/>
+      <end position="970"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="977"/>
+      <end position="985"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="68">
+    <location>
+      <begin position="988"/>
+      <end position="990"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="79">
+    <location>
+      <begin position="992"/>
+      <end position="994"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="66">
+    <location>
+      <begin position="997"/>
+      <end position="999"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="65">
+    <location>
+      <begin position="1001"/>
+      <end position="1003"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="68">
+    <location>
+      <begin position="1009"/>
+      <end position="1012"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="65">
+    <location>
+      <begin position="1013"/>
+      <end position="1031"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="65">
+    <location>
+      <begin position="1034"/>
+      <end position="1037"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="65">
+    <location>
+      <begin position="1041"/>
+      <end position="1057"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="74">
+    <location>
+      <begin position="1062"/>
+      <end position="1064"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="76">
+    <location>
+      <begin position="1068"/>
+      <end position="1072"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="65">
+    <location>
+      <begin position="1076"/>
+      <end position="1089"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="65">
+    <location>
+      <begin position="1090"/>
+      <end position="1092"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="65">
+    <location>
+      <begin position="1097"/>
+      <end position="1111"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="62">
+    <location>
+      <begin position="1114"/>
+      <end position="1116"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="65">
+    <location>
+      <begin position="1127"/>
+      <end position="1133"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="81">
+    <location>
+      <begin position="1134"/>
+      <end position="1138"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="65">
+    <location>
+      <begin position="1139"/>
+      <end position="1158"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="65">
+    <location>
+      <begin position="1159"/>
+      <end position="1161"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="65">
+    <location>
+      <begin position="1165"/>
+      <end position="1179"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="65">
+    <location>
+      <begin position="1180"/>
+      <end position="1182"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="65">
+    <location>
+      <begin position="1186"/>
+      <end position="1198"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="65">
+    <location>
+      <begin position="1204"/>
+      <end position="1213"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="65">
+    <location>
+      <begin position="1216"/>
+      <end position="1218"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="58">
+    <location>
+      <begin position="1223"/>
+      <end position="1225"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="65">
+    <location>
+      <begin position="1226"/>
+      <end position="1243"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="65">
+    <location>
+      <begin position="1246"/>
+      <end position="1248"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="65">
+    <location>
+      <begin position="1249"/>
+      <end position="1258"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="68">
+    <location>
+      <begin position="1265"/>
+      <end position="1267"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="65">
+    <location>
+      <begin position="1269"/>
+      <end position="1285"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="78">
+    <location>
+      <begin position="1286"/>
+      <end position="1288"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="70">
+    <location>
+      <begin position="1297"/>
+      <end position="1299"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="64">
+    <location>
+      <begin position="1303"/>
+      <end position="1305"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="68">
+    <location>
+      <begin position="1307"/>
+      <end position="1310"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="80">
+    <location>
+      <begin position="1312"/>
+      <end position="1315"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="75">
+    <location>
+      <begin position="1320"/>
+      <end position="1326"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="68">
+    <location>
+      <begin position="1331"/>
+      <end position="1333"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1336"/>
+      <end position="1350"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1356"/>
+      <end position="1369"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="79">
+    <location>
+      <begin position="1377"/>
+      <end position="1379"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1383"/>
+      <end position="1392"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1394"/>
+      <end position="1396"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1400"/>
+      <end position="1406"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1411"/>
+      <end position="1413"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="1415"/>
+      <end position="1422"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="77">
+    <location>
+      <begin position="1424"/>
+      <end position="1428"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="1431"/>
+      <end position="1434"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1438"/>
+      <end position="1440"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1443"/>
+      <end position="1449"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1453"/>
+      <end position="1455"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1457"/>
+      <end position="1465"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="59">
+    <location>
+      <begin position="1469"/>
+      <end position="1471"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1475"/>
+      <end position="1481"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1485"/>
+      <end position="1493"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1495"/>
+      <end position="1497"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="1498"/>
+      <end position="1500"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1504"/>
+      <end position="1507"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1510"/>
+      <end position="1516"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="60">
+    <location>
+      <begin position="1518"/>
+      <end position="1520"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1524"/>
+      <end position="1526"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="1529"/>
+      <end position="1536"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="61">
+    <location>
+      <begin position="1537"/>
+      <end position="1540"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1541"/>
+      <end position="1553"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1556"/>
+      <end position="1570"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="76">
+    <location>
+      <begin position="1577"/>
+      <end position="1579"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1581"/>
+      <end position="1587"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="1588"/>
+      <end position="1593"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1601"/>
+      <end position="1607"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="1608"/>
+      <end position="1610"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1611"/>
+      <end position="1613"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="1615"/>
+      <end position="1617"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1619"/>
+      <end position="1621"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="80">
+    <location>
+      <begin position="1627"/>
+      <end position="1631"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="1634"/>
+      <end position="1636"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="60">
+    <location>
+      <begin position="1637"/>
+      <end position="1639"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="1640"/>
+      <end position="1642"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="80">
+    <location>
+      <begin position="1643"/>
+      <end position="1658"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1"/>
+  <evidence type="ECO:0000255" key="2"/>
+  <evidence type="ECO:0000255" key="3">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU00022"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="4">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU00295"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="10432298"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="11387479"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="11773063"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="12540846"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="10">
+    <source>
+      <dbReference type="PubMed" id="12754519"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="11">
+    <source>
+      <dbReference type="PubMed" id="14760718"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="12">
+    <source>
+      <dbReference type="PubMed" id="15833747"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="13">
+    <source>
+      <dbReference type="PubMed" id="16263699"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="14">
+    <source>
+      <dbReference type="PubMed" id="16333141"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="15">
+    <source>
+      <dbReference type="PubMed" id="16335952"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="16">
+    <source>
+      <dbReference type="PubMed" id="17051150"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="17">
+    <source>
+      <dbReference type="PubMed" id="17351618"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="18">
+    <source>
+      <dbReference type="PubMed" id="17634448"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="19">
+    <source>
+      <dbReference type="PubMed" id="17684013"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="20">
+    <source>
+      <dbReference type="PubMed" id="18160402"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="21">
+    <source>
+      <dbReference type="PubMed" id="18796626"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="22">
+    <source>
+      <dbReference type="PubMed" id="19112495"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="23">
+    <source>
+      <dbReference type="PubMed" id="19159218"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="24">
+    <source>
+      <dbReference type="PubMed" id="19615750"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="25">
+    <source>
+      <dbReference type="PubMed" id="1976733"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="26">
+    <source>
+      <dbReference type="PubMed" id="20083651"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="27">
+    <source>
+      <dbReference type="PubMed" id="20513133"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="28">
+    <source>
+      <dbReference type="PubMed" id="20951140"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="29">
+    <source>
+      <dbReference type="PubMed" id="21055811"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="30">
+    <source>
+      <dbReference type="PubMed" id="21285368"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="31">
+    <source>
+      <dbReference type="PubMed" id="21317894"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="32">
+    <source>
+      <dbReference type="PubMed" id="21502375"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="33">
+    <source>
+      <dbReference type="PubMed" id="21527715"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="34">
+    <source>
+      <dbReference type="PubMed" id="21555552"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="35">
+    <source>
+      <dbReference type="PubMed" id="22028381"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="36">
+    <source>
+      <dbReference type="PubMed" id="24036952"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="37">
+    <source>
+      <dbReference type="PubMed" id="24367091"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="38">
+    <source>
+      <dbReference type="PubMed" id="2473125"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="39">
+    <source>
+      <dbReference type="PubMed" id="2579379"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="40">
+    <source>
+      <dbReference type="PubMed" id="2584723"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="41">
+    <source>
+      <dbReference type="PubMed" id="26091039"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="42">
+    <source>
+      <dbReference type="PubMed" id="28264884"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="43">
+    <source>
+      <dbReference type="PubMed" id="2849025"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="44">
+    <source>
+      <dbReference type="PubMed" id="2909530"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="45">
+    <source>
+      <dbReference type="PubMed" id="2972794"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="46">
+    <source>
+      <dbReference type="PubMed" id="31507604"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="47">
+    <source>
+      <dbReference type="PubMed" id="7539791"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="48">
+    <source>
+      <dbReference type="PubMed" id="7961791"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="49">
+    <source>
+      <dbReference type="PubMed" id="8175757"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="50">
+    <source>
+      <dbReference type="PubMed" id="8376604"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="51">
+    <source>
+      <dbReference type="PubMed" id="8416818"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="52">
+    <source>
+      <dbReference type="PubMed" id="9059512"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="53">
+    <source>
+      <dbReference type="PubMed" id="9555951"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="54">
+    <source ref="2"/>
+  </evidence>
+  <evidence type="ECO:0000305" key="55"/>
+  <evidence type="ECO:0007744" key="56">
+    <source>
+      <dbReference type="PDB" id="6RUR"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="57">
+    <source>
+      <dbReference type="PDB" id="6RUV"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="58">
+    <source>
+      <dbReference type="PDB" id="1GHQ"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="59">
+    <source>
+      <dbReference type="PDB" id="2A73"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="60">
+    <source>
+      <dbReference type="PDB" id="2A74"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="61">
+    <source>
+      <dbReference type="PDB" id="2ICE"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="62">
+    <source>
+      <dbReference type="PDB" id="2NOJ"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="63">
+    <source>
+      <dbReference type="PDB" id="2QKI"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="64">
+    <source>
+      <dbReference type="PDB" id="2WII"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="65">
+    <source>
+      <dbReference type="PDB" id="2WY7"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="66">
+    <source>
+      <dbReference type="PDB" id="2WY8"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="67">
+    <source>
+      <dbReference type="PDB" id="2XWB"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="68">
+    <source>
+      <dbReference type="PDB" id="3G6J"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="69">
+    <source>
+      <dbReference type="PDB" id="3L3O"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="70">
+    <source>
+      <dbReference type="PDB" id="3OXU"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="71">
+    <source>
+      <dbReference type="PDB" id="3T4A"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="72">
+    <source>
+      <dbReference type="PDB" id="4HW5"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="73">
+    <source>
+      <dbReference type="PDB" id="4I6O"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="74">
+    <source>
+      <dbReference type="PDB" id="5FO7"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="75">
+    <source>
+      <dbReference type="PDB" id="5FO8"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="76">
+    <source>
+      <dbReference type="PDB" id="5FOB"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="77">
+    <source>
+      <dbReference type="PDB" id="6EHG"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="78">
+    <source>
+      <dbReference type="PDB" id="6RMU"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="79">
+    <source>
+      <dbReference type="PDB" id="7AKK"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="80">
+    <source>
+      <dbReference type="PDB" id="7BAG"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="81">
+    <source>
+      <dbReference type="PDB" id="7TV9"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="82">
+    <source>
+      <dbReference type="PDB" id="8HK2"/>
+    </source>
+  </evidence>
+  <sequence length="1663" mass="187148" checksum="30C2832A9E75FFC4" modified="2006-12-12" version="2" precursor="true">MGPTSGPSLLLLLLTHLPLALGSPMYSIITPNILRLESEETMVLEAHDAQGDVPVTVTVHDFPGKKLVLSSEKTVLTPATNHMGNVTFTIPANREFKSEKGRNKFVTVQATFGTQVVEKVVLVSLQSGYLFIQTDKTIYTPGSTVLYRIFTVNHKLLPVGRTVMVNIENPEGIPVKQDSLSSQNQLGVLPLSWDIPELVNMGQWKIRAYYENSPQQVFSTEFEVKEYVLPSFEVIVEPTEKFYYIYNEKGLEVTITARFLYGKKVEGTAFVIFGIQDGEQRISLPESLKRIPIEDGSGEVVLSRKVLLDGVQNPRAEDLVGKSLYVSATVILHSGSDMVQAERSGIPIVTSPYQIHFTKTPKYFKPGMPFDLMVFVTNPDGSPAYRVPVAVQGEDTVQSLTQGDGVAKLSINTHPSQKPLSITVRTKKQELSEAEQATRTMQALPYSTVGNSNNYLHLSVLRTELRPGETLNVNFLLRMDRAHEAKIRYYTYLIMNKGRLLKAGRQVREPGQDLVVLPLSITTDFIPSFRLVAYYTLIGASGQREVVADSVWVDVKDSCVGSLVVKSGQSEDRQPVPGQQMTLKIEGDHGARVVLVAVDKGVFVLNKKNKLTQSKIWDVVEKADIGCTPGSGKDYAGVFSDAGLTFTSSSGQQTAQRAELQCPQPAARRRRSVQLTEKRMDKVGKYPKELRKCCEDGMRENPMRFSCQRRTRFISLGEACKKVFLDCCNYITELRRQHARASHLGLARSNLDEDIIAEENIVSRSEFPESWLWNVEDLKEPPKNGISTKLMNIFLKDSITTWEILAVSMSDKKGICVADPFEVTVMQDFFIDLRLPYSVVRNEQVEIRAVLYNYRQNQELKVRVELLHNPAFCSLATTKRRHQQTVTIPPKSSLSVPYVIVPLKTGLQEVEVKAAVYHHFISDGVRKSLKVVPEGIRMNKTVAVRTLDPERLGREGVQKEDIPPADLSDQVPDTESETRILLQGTPVAQMTEDAVDAERLKHLIVTPSGCGEQNMIGMTPTVIAVHYLDETEQWEKFGLEKRQGALELIKKGYTQQLAFRQPSSAFAAFVKRAPSTWLTAYVVKVFSLAVNLIAIDSQVLCGAVKWLILEKQKPDGVFQEDAPVIHQEMIGGLRNNNEKDMALTAFVLISLQEAKDICEEQVNSLPGSITKAGDFLEANYMNLQRSYTVAIAGYALAQMGRLKGPLLNKFLTTAKDKNRWEDPGKQLYNVEATSYALLALLQLKDFDFVPPVVRWLNEQRYYGGGYGSTQATFMVFQALAQYQKDAPDHQELNLDVSLQLPSRSSKITHRIHWESASLLRSEETKENEGFTVTAEGKGQGTLSVVTMYHAKAKDQLTCNKFDLKVTIKPAPETEKRPQDAKNTMILEICTRYRGDQDATMSILDISMMTGFAPDTDDLKQLANGVDRYISKYELDKAFSDRNTLIIYLDKVSHSEDDCLAFKVHQYFNVELIQPGAVKVYAYYNLEESCTRFYHPEKEDGKLNKLCRDELCRCAEENCFIQKSDDKVTLEERLDKACEPGVDYVYKTRLVKVQLSNDFDEYIMAIEQTIKSGSDEVQVGQQRTFISPIKCREALKLEEKKHYLMWGLSSDFWGEKPNLSYIIGKDTWVEHWPEEDECQDEENQKQCQDLGAFTESMVVFGCPN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

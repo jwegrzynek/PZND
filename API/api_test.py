@@ -25,3 +25,17 @@ for url in ['https://api.github.com', 'https://api.github.com/invalid']:
     else:
         print('Success')
 
+url = 'https://api.twilio.com/2010-04-01/Accounts/AC34549d42535761bfe38ab93df0bb19ef/Messages.json'
+client_id = 'AC34549d42535761bfe38ab93df0bb19ef'
+client_secret = 'dd4e131d0c29b0ac28abd14f27de4d05'
+
+data = {
+    'From': '+14126936366',
+    'Body': 'Dzień dobry',
+    'To': '+48793825614'
+}
+response = requests.post(url, data=data, auth=(client_id, client_secret))
+
+response = requests.get(url, auth=(client_id, client_secret))
+
+print(response.json())
