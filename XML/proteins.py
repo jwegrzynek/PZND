@@ -1,7 +1,8 @@
-from xml.dom.minidom import parse
+from xml.dom.minidom import parse, parseString
 import pandas as pd
 # Downloading data
 import requests
+from functools import lru_cache
 
 url = 'https://www.uniprot.org/uniprotkb/P01024.xml'
 response = requests.get(url)
@@ -33,7 +34,7 @@ df = pd.read_csv('proteins.csv')
 
 df['id'] = df["Protein"].str.extract(r'\|([^|]+)\|')
 
-print(sum(df['id'].isna()))
+# print(sum(df['id'].isna()))
 
 df = df[~df['id'].isna()]
 
@@ -55,5 +56,43 @@ def get_protein_name(xml_file_path):
     # Print the text content of <fullName>
     print(full_name_element.firstChild.nodeValue)
 
-get_protein_name()
+
+get_protein_name(file_path)
+
+
+# def get_protein_name(document):
+#     first_full_name = document.getElementsByTagName('fullName')[0]
+#     return first_full_name.firstChild.wholeText
+
+
+def get_protein_xml(id):
+    url = f'https://www.uniprot.org/uniprotkb/{id}.xml'
+    response = requests.get(url)
+
+    if response.status_code != 200:
+        print(f'Invalid status code for id={id}')
+        return
+
+    return parseString(response.text)
+
+
+@lru_cache
+def get_protein_name_by_id(id):
+    """Returns protein name of a protein defined with Uniprot id"""
+
+    if (dom := get_protein_xml(id)) is not None:
+        return (dom.getElementsByTagName('protein')[0]
+                .getElementsByTagName('recommendedName')[0]
+                .getElementsByTagName('fullName')[0]
+                .firstChild.nodeValue)
+
+
+print(get_protein_xml('P98160'))
+print(get_protein_name_by_id('P98160'))
+
+proteins_names = [get_protein_name_by_id(id) for id in df['id']]
+
+print(proteins_names)
+
+df.id.apply(get_protein_name_by_id)
 
