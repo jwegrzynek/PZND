@@ -96,3 +96,6 @@ print(proteins_names)
 
 df.id.apply(get_protein_name_by_id)
 
+
+
+
