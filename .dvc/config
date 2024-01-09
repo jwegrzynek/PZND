@@ -1,0 +1,4 @@
+[core]
+    remote = ssh-storage
+['remote "ssh-storage"']
+    url = ../153.19.8.113/test_storage
