@@ -1,4 +1,4 @@
 [core]
     remote = ssh-storage
 ['remote "ssh-storage"']
-    url = ../153.19.8.113/test_storage
+    url = ssh://jp@153.19.8.113/home/jp/storages/jwegrzynek
